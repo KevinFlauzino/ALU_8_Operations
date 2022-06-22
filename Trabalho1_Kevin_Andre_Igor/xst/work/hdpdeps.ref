@@ -1,0 +1,6 @@
+V3 3
+FL D:/Trabalho1_Kevin_Andre_Igor/main.vhd 2022/06/22.16:12:33 P.20131013
+EN work/Main 1655925366 FL D:/Trabalho1_Kevin_Andre_Igor/main.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Main/Behavioral 1655925367 \
+      FL D:/Trabalho1_Kevin_Andre_Igor/main.vhd EN work/Main 1655925366

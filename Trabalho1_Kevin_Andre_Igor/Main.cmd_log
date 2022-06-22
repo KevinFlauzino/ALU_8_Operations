@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "D:/Trabalho1_Kevin_Andre_Igor/Main.xst" -ofn "D:/Trabalho1_Kevin_Andre_Igor/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 Main.ngc Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 Main.ngc Main.ngd  
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Main.ngc Main_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s700an-fgg484-4 Main.ngc Main.ngd  

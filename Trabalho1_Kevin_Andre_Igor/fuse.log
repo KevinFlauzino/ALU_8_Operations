@@ -1,0 +1,33 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o D:/Trabalho1_Kevin_Andre_Igor/TESTE_multiplicador_isim_beh.exe -prj D:/Trabalho1_Kevin_Andre_Igor/TESTE_multiplicador_beh.prj work.TESTE_multiplicador 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Trabalho1_Kevin_Andre_Igor/half_adder.vhd" into library work
+Parsing VHDL file "D:/Trabalho1_Kevin_Andre_Igor/full_adder.vhd" into library work
+Parsing VHDL file "D:/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" into library work
+WARNING:HDLCompiler:946 - "D:/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 54: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 56: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 57: Actual for formal port b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 59: Actual for formal port cin is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 60: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 61: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 64: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 65: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 68: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "D:/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 70: Actual for formal port cin is neither a static name nor a globally static expression
+Parsing VHDL file "D:/Trabalho1_Kevin_Andre_Igor/TESTE_multiplicador.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dataflow of entity half_adder [half_adder_default]
+Compiling architecture dataflow of entity full_adder [full_adder_default]
+Compiling architecture behavioral of entity multiplicador_4bits [multiplicador_4bits_default]
+Compiling architecture behavior of entity teste_multiplicador
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable D:/Trabalho1_Kevin_Andre_Igor/TESTE_multiplicador_isim_beh.exe
+Fuse Memory Usage: 30112 KB
+Fuse CPU Usage: 312 ms
