@@ -7,19 +7,21 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/multiplicador_4bits - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|multiplicador_4bits.vhd</ClosedNode>
          <ClosedNode>/multiplicador_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|multiplicador_4bits.vhd</ClosedNode>
          <ClosedNode>/somador_4bits - structural D:|Trabalho1_Kevin_Andre_Igor|somador_4bits.vhd</ClosedNode>
+         <ClosedNode>/subtrator_4bits - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd/d1 - somador_4bits - structural</ClosedNode>
          <ClosedNode>/subtrator_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd</ClosedNode>
          <ClosedNode>/subtrator_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd/d1 - somador_4bits - structural</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Main - Behavioral (D:/Trabalho1_Kevin_Andre_Igor/main.vhd)</SelectedItem>
+         <SelectedItem>Main - Behavioral (C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000172000000020000000000000000000000000200000064ffffffff000000810000000300000002000001720000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Main - Behavioral (D:/Trabalho1_Kevin_Andre_Igor/main.vhd)</CurrentItem>
+      <CurrentItem>Main - Behavioral (C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -101,12 +103,14 @@
          <ClosedNode>/somador_4bits - structural D:|Trabalho1_Kevin_Andre_Igor|somador_4bits.vhd</ClosedNode>
          <ClosedNode>/subtrator_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000173000000020000000000000000000000000200000064ffffffff000000810000000300000002000001730000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a30000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>TESTE_multiplicador - behavior (D:/Trabalho1_Kevin_Andre_Igor/TESTE_multiplicador.vhd)</CurrentItem>
+      <CurrentItem>Unassigned User Library Modules</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>

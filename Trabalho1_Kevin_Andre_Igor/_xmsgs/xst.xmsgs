@@ -5,5 +5,8 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="error" file="HDLParsers" num="164" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd</arg>&quot; Line <arg fmt="%d" index="2">65</arg>. <arg fmt="%s" index="3">parse error, unexpected IDENTIFIER</arg>
+</msg>
+
 </messages>
 
