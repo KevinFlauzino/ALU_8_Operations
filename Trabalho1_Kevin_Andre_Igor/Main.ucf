@@ -12,7 +12,9 @@ NET "resultado<5>"       LOC = "V20"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW
 NET "resultado<6>"       LOC = "Y22"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
 NET "resultado<7>"       LOC = "W21"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
 
-//NET "CLK_50MHZ"			 LOC = "E12"  | IOSTANDARD = LVCMOS33; 
+NET "CLK_50MHZ"   		 LOC = "E12"  | IOSTANDARD = LVCMOS33 ;
+# Define clock period for 50 MHz oscillator
+NET "CLK_50MHZ" PERIOD = 20.0ns HIGH 40%;
  
 
 NET "confirma"     		 LOC = "T15"  | IOSTANDARD = LVCMOS33 | PULLDOWN;

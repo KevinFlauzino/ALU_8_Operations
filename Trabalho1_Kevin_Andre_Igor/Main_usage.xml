@@ -4,8 +4,8 @@
      changes made to this file may result in unpredictable
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
-<DeviceUsageSummary rev="14">
-<DesignStatistics TimeStamp="Wed Jun 29 16:55:10 2022"><group name="NetStatistics">
+<DeviceUsageSummary rev="15">
+<DesignStatistics TimeStamp="Wed Jun 29 21:40:00 2022"><group name="NetStatistics">
 <item name="NumNets_Active" rev="8">
 <attrib name="value" value="28"/></item>
 </group>
@@ -16,23 +16,23 @@
 <attrib name="value" value="4"/></item>
 </group>
 <group name="MiscellaneousStatistics">
-<item name="AGG_BONDED_IO" rev="14">
+<item name="AGG_BONDED_IO" rev="15">
 <attrib name="value" value="14"/></item>
-<item name="AGG_IO" rev="14">
+<item name="AGG_IO" rev="15">
 <attrib name="value" value="14"/></item>
-<item name="AGG_SLICE" rev="14">
+<item name="AGG_SLICE" rev="15">
 <attrib name="value" value="2"/></item>
-<item name="NUM_4_INPUT_LUT" rev="14">
+<item name="NUM_4_INPUT_LUT" rev="15">
 <attrib name="value" value="3"/></item>
-<item name="NUM_BONDED_IBUF" rev="14">
+<item name="NUM_BONDED_IBUF" rev="15">
 <attrib name="value" value="6"/></item>
-<item name="NUM_BONDED_IOB" rev="14">
+<item name="NUM_BONDED_IOB" rev="15">
 <attrib name="value" value="8"/></item>
-<item name="NUM_BUFGMUX" rev="14">
+<item name="NUM_BUFGMUX" rev="15">
 <attrib name="value" value="1"/></item>
-<item name="NUM_IOB_LATCH" rev="14">
+<item name="NUM_IOB_LATCH" rev="15">
 <attrib name="value" value="4"/></item>
-<item name="NUM_SLICEL" rev="14">
+<item name="NUM_SLICEL" rev="15">
 <attrib name="value" value="2"/></item>
 </group>
 </DesignStatistics>

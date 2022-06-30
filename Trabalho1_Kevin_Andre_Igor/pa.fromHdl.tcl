@@ -1,10 +1,13 @@
 
 # PlanAhead Launch Script for Pre-Synthesis Floorplanning, created by Project Navigator
 
-create_project -name Trabalho1_Kevin_Andre_Igor -dir "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/planAhead_run_2" -part xc3s700anfgg484-4
+create_project -name Trabalho1_Kevin_Andre_Igor -dir "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/planAhead_run_2" -part xc3s700anfgg484-4
 set_param project.pinAheadLayout yes
 set srcset [get_property srcset [current_run -impl]]
 set_property target_constrs_file "Main.ucf" [current_fileset -constrset]
+set hdlfile [add_files [list {ULA.vhd}]]
+set_property file_type VHDL $hdlfile
+set_property library work $hdlfile
 set hdlfile [add_files [list {main.vhd}]]
 set_property file_type VHDL $hdlfile
 set_property library work $hdlfile

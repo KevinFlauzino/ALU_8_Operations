@@ -30,20 +30,27 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity contador is
-	PORT (TEMPO_SEGUNDOS, CLK_50MHZ : IN INTEGER);
+GENERIC(CLK_FREQUENCIA : INTEGER);
+
+	PORT (CLK_50MHZ 		: IN STD_LOGIC;
+			TEMPO_SEGUNDOS : INOUT INTEGER			
+			);
 end contador;
 
 architecture Behavioral of contador is
+	SIGNAL I : INTEGER;
 	
 begin
 
-	PROCESS
-		VARIABLE I, J : INTEGER;
-		
-		BEGIN
-			cont: while (TEMPO_SEGUNDOS <= ((1/CLK_50MHZ)*I)) LOOP
-				I := I +1;				
-			END LOOP;
+	PROCESS(CLK_50MHZ) is		
+	BEGIN
+		if rising_edge(CLK_50MHZ) then
+			if I = CLK_FREQUENCIA - 1 then
+				I <= 0;					
+			else
+				I <= I + 1;
+			end if;	
+		end if;
 			
 	END PROCESS;			
 

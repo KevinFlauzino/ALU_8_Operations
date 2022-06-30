@@ -14,6 +14,29 @@ Done.
 Annotating constraints to design from ucf file "Main.ucf" ...
 Resolving constraint associations...
 Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET "CLK_50MHZ"   		 LOC = "E12"  |>
+   [Main.ucf(15)]: NET "CLK_50MHZ" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "CLK_50MHZ"   		 LOC = "E12"  |> [Main.ucf(15)]' could not be found and
+   so the Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <IOSTANDARD = LVCMOS33 ;> [Main.ucf(15)]:
+   NET "CLK_50MHZ" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "CLK_50MHZ" PERIOD = 20.0ns HIGH
+   40%;> [Main.ucf(17)]: NET "CLK_50MHZ" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+INFO:ConstraintSystem - The Period constraint <NET "CLK_50MHZ" PERIOD = 20.0ns
+   HIGH 40%;> [Main.ucf(17)], is specified using the Net Period method which is
+   not recommended. Please use the Timespec PERIOD method.
+
 Done...
 
 Checking expanded design ...
@@ -26,13 +49,14 @@ Partition Implementation Status
 -------------------------------
 
 NGDBUILD Design Results Summary:
-  Number of errors:     0
-  Number of warnings:   0
+  Number of errors:     3
+  Number of warnings:   1
 
-Total memory usage is 4397416 kilobytes
+Total memory usage is 4397452 kilobytes
 
-Writing NGD file "Main.ngd" ...
 Total REAL time to NGDBUILD completion:  2 sec
 Total CPU time to NGDBUILD completion:   2 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
 
 Writing NGDBUILD log file "Main.bld"...
