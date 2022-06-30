@@ -1,9 +1,23 @@
-V3 4
-FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd 2022/06/22.17:39:11 P.20131013
-EN work/Main 1655925366 \
-      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd \
+V3 12
+FL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/contador.vhd 2022/06/29.16:24:20 P.20131013
+EN work/contador 1656530663 \
+      FL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/contador.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/Main/Behavioral 1655925367 \
-      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd \
-      EN work/Main 1655925366
+AR work/contador/Behavioral 1656530664 \
+      FL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/contador.vhd \
+      EN work/contador 1656530663
+FL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/main.vhd 2022/06/29.15:55:05 P.20131013
+EN work/Main 1656532421 \
+      FL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/main.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Main/Behavioral 1656532422 \
+      FL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/main.vhd \
+      EN work/Main 1656532421 CP ULA
+FL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd 2022/06/29.16:29:56 P.20131013
+EN work/ULA 1656532419 \
+      FL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/ULA/Behavioral 1656532420 \
+      FL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd EN work/ULA 1656532419
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd 2022/06/22.17:39:11 P.20131013
 FL D:/Trabalho1_Kevin_Andre_Igor/main.vhd 2022/06/22.16:12:33 P.20131013

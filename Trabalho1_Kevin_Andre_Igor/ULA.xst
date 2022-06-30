@@ -1,0 +1,5 @@
+set -tmpdir "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/xst/projnav.tmp"
+set -xsthdpdir "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/xst"
+elaborate
+-ifn ULA.prj
+-ifmt mixed

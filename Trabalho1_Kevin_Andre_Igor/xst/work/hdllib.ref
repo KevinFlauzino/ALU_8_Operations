@@ -1,2 +1,6 @@
-AR main behavioral D:/Trabalho1_Kevin_Andre_Igor/main.vhd sub00/vhpl01 1655925367
-EN main NULL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd sub00/vhpl00 1655930585
+AR main behavioral /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/main.vhd sub00/vhpl01 1656532422
+EN main NULL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/main.vhd sub00/vhpl00 1656532421
+EN ula NULL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd sub00/vhpl02 1656532419
+AR ula behavioral /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd sub00/vhpl03 1656532420
+EN contador NULL /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/contador.vhd sub00/vhpl04 1656530663
+AR contador behavioral /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/contador.vhd sub00/vhpl05 1656530664

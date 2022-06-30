@@ -1,0 +1,7 @@
+[Inputs]
+reset
+confirma
+=switchs[3:0]=
+[Outputs]
+=resultado[7:0]=
+[BiDir]

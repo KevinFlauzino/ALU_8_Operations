@@ -1,0 +1,53 @@
+Release 14.7 Drc P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri Jun 24 16:36:00 2022
+
+drc -z Main.ncd Main.pcf
+
+WARNING:PhysDesignRules:367 - The signal <switchs<0>_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <switchs<1>_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <switchs<2>_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <switchs<3>_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <confirma_IBUF> is incomplete. The
+   signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <reset_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+ERROR:PhysDesignRules:368 - The signal <resultado<0>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+ERROR:PhysDesignRules:368 - The signal <resultado<1>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+ERROR:PhysDesignRules:368 - The signal <resultado<2>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+ERROR:PhysDesignRules:368 - The signal <resultado<3>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+ERROR:PhysDesignRules:368 - The signal <resultado<4>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+ERROR:PhysDesignRules:368 - The signal <resultado<5>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+ERROR:PhysDesignRules:368 - The signal <resultado<6>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+ERROR:PhysDesignRules:368 - The signal <resultado<7>_OBUF> is incomplete. The
+   signal is not driven by any source pin in the design.
+ERROR:PhysDesignRules:10 - The network <resultado<0>_OBUF> is completely
+   unrouted.
+ERROR:PhysDesignRules:10 - The network <resultado<1>_OBUF> is completely
+   unrouted.
+ERROR:PhysDesignRules:10 - The network <resultado<2>_OBUF> is completely
+   unrouted.
+ERROR:PhysDesignRules:10 - The network <resultado<3>_OBUF> is completely
+   unrouted.
+ERROR:PhysDesignRules:10 - The network <resultado<4>_OBUF> is completely
+   unrouted.
+ERROR:PhysDesignRules:10 - The network <resultado<5>_OBUF> is completely
+   unrouted.
+ERROR:PhysDesignRules:10 - The network <resultado<6>_OBUF> is completely
+   unrouted.
+ERROR:PhysDesignRules:10 - The network <resultado<7>_OBUF> is completely
+   unrouted.
+ERROR:Bitgen:25 - DRC detected 16 errors and 6 warnings.  Please see the
+   previously displayed individual error or warning messages for more details.

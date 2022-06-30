@@ -9,19 +9,21 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/multiplicador_4bits - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|multiplicador_4bits.vhd</ClosedNode>
          <ClosedNode>/multiplicador_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|multiplicador_4bits.vhd</ClosedNode>
+         <ClosedNode>/multiplicador_4bits - Behavioral |home|sd|Documents|Trab1|Trabalho1_Kevin_Andre_Igor|multiplicador_4bits.vhd</ClosedNode>
          <ClosedNode>/somador_4bits - structural D:|Trabalho1_Kevin_Andre_Igor|somador_4bits.vhd</ClosedNode>
          <ClosedNode>/subtrator_4bits - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd/d1 - somador_4bits - structural</ClosedNode>
          <ClosedNode>/subtrator_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd</ClosedNode>
          <ClosedNode>/subtrator_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd/d1 - somador_4bits - structural</ClosedNode>
+         <ClosedNode>/subtrator_4bits - Behavioral |home|sd|Documents|Trab1|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Main - Behavioral (C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd)</SelectedItem>
+         <SelectedItem>xc3s700an-4fgg484</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000172000000020000000000000000000000000200000064ffffffff000000810000000300000002000001720000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001bb000000020000000000000000000000000200000064ffffffff000000810000000300000002000001bb0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Main - Behavioral (C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd)</CurrentItem>
+      <CurrentItem>xc3s700an-4fgg484</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -33,7 +35,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b3000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b30000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000124000000010000000100000000000000000000000064ffffffff000000810000000000000001000001240000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Update All Schematic Files</CurrentItem>
    </ItemView>
@@ -44,7 +46,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002d70000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000130000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000000640000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>half_adder.vhd</CurrentItem>
    </ItemView>
@@ -56,7 +58,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000124000000010001000100000000000000000000000064ffffffff000000810000000000000001000001240000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -76,20 +78,21 @@
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
-         <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Implement Design</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b3000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b30000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000114000000010000000100000000000000000000000064ffffffff000000810000000000000001000001140000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Implement Design</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
@@ -97,8 +100,11 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/TESTE_multiplicador - behavior D:|Trabalho1_Kevin_Andre_Igor|TESTE_multiplicador.vhd</ClosedNode>
+         <ClosedNode>/TESTE_multiplicador - behavior |home|sd|Documents|Trab1|Trabalho1_Kevin_Andre_Igor|TESTE_multiplicador.vhd</ClosedNode>
          <ClosedNode>/TESTE_somador - behavior D:|Trabalho1_Kevin_Andre_Igor|TESTE_somador.vhd</ClosedNode>
+         <ClosedNode>/TESTE_somador - behavior |home|sd|Documents|Trab1|Trabalho1_Kevin_Andre_Igor|TESTE_somador.vhd</ClosedNode>
          <ClosedNode>/TESTE_subtrator - behavior D:|Trabalho1_Kevin_Andre_Igor|TESTE_subtrator.vhd</ClosedNode>
+         <ClosedNode>/TESTE_subtrator - behavior |home|sd|Documents|Trab1|Trabalho1_Kevin_Andre_Igor|TESTE_subtrator.vhd</ClosedNode>
          <ClosedNode>/multiplicador_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|multiplicador_4bits.vhd</ClosedNode>
          <ClosedNode>/somador_4bits - structural D:|Trabalho1_Kevin_Andre_Igor|somador_4bits.vhd</ClosedNode>
          <ClosedNode>/subtrator_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd</ClosedNode>
@@ -108,7 +114,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001a3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001a30000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001bd000000020000000000000000000000000200000064ffffffff000000810000000300000002000001bd0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>Unassigned User Library Modules</CurrentItem>
    </ItemView>
@@ -122,7 +128,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001b3000000010000000100000000000000000000000064ffffffff000000810000000000000001000001b30000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000124000000010000000100000000000000000000000064ffffffff000000810000000000000001000001240000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -152,5 +158,19 @@
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000145000000020000000000000000000000000000000064ffffffff000000810000000000000002000000d50000000100000000000000700000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>main.vhd (D:/Trabalho1_Kevin_Andre_Igor/main.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000124000000010000000100000000000000000000000064ffffffff000000810000000000000001000001240000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
    </ItemView>
 </Project>

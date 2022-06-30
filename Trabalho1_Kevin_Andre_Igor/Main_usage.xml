@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="14">
+<DesignStatistics TimeStamp="Wed Jun 29 16:55:10 2022"><group name="NetStatistics">
+<item name="NumNets_Active" rev="8">
+<attrib name="value" value="28"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IOB-DIFFMLR" rev="8">
+<attrib name="value" value="4"/></item>
+<item name="IOB-DIFFSLR" rev="8">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="14">
+<attrib name="value" value="14"/></item>
+<item name="AGG_IO" rev="14">
+<attrib name="value" value="14"/></item>
+<item name="AGG_SLICE" rev="14">
+<attrib name="value" value="2"/></item>
+<item name="NUM_4_INPUT_LUT" rev="14">
+<attrib name="value" value="3"/></item>
+<item name="NUM_BONDED_IBUF" rev="14">
+<attrib name="value" value="6"/></item>
+<item name="NUM_BONDED_IOB" rev="14">
+<attrib name="value" value="8"/></item>
+<item name="NUM_BUFGMUX" rev="14">
+<attrib name="value" value="1"/></item>
+<item name="NUM_IOB_LATCH" rev="14">
+<attrib name="value" value="4"/></item>
+<item name="NUM_SLICEL" rev="14">
+<attrib name="value" value="2"/></item>
+</group>
+</DesignStatistics>
+<ReportConfigData TimeStamp="Fri Jun 24 16:36:01 2022"><group name="IBUF_PAD">
+<item name="IOATTRBOX" rev="8">
+<attrib name="LVCMOS33" value="6"/></item>
+<item name="PULL" rev="8">
+<attrib name="PULLDOWN" value="2"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="8">
+<attrib name="IN_INV" value="0"/><attrib name="IN" value="8"/></item>
+<item name="SUSPEND" rev="8">
+<attrib name="3STATE" value="8"/></item>
+</group>
+<group name="IBUF_DELAY_ADJ_BBOX">
+<item name="DELAY_ADJ_ATTRBOX" rev="8">
+<attrib name="FIXED" value="6"/></item>
+<item name="IBUF_DELAY_VALUE" rev="8">
+<attrib name="DLY0" value="6"/></item>
+<item name="IFD_DELAY_VALUE" rev="8">
+<attrib name="DLY0" value="6"/></item>
+<item name="SEL_IN" rev="8">
+<attrib name="SEL_IN" value="6"/><attrib name="SEL_IN_INV" value="0"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="DRIVEATTRBOX" rev="8">
+<attrib name="8" value="8"/></item>
+<item name="IOATTRBOX" rev="8">
+<attrib name="LVCMOS33" value="8"/></item>
+<item name="SLEW" rev="8">
+<attrib name="SLOW" value="8"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="8">
+<attrib name="O1_INV" value="0"/><attrib name="O1" value="8"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Fri Jun 24 16:36:01 2022"><group name="IBUF_PAD">
+<item name="PAD" rev="8">
+<attrib name="value" value="6"/></item>
+</group>
+<group name="IBUF_INBUF">
+<item name="IN" rev="8">
+<attrib name="value" value="6"/></item>
+<item name="OUT" rev="8">
+<attrib name="value" value="6"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="8">
+<attrib name="value" value="8"/></item>
+<item name="OUT" rev="8">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="IBUF">
+<item name="I" rev="8">
+<attrib name="value" value="6"/></item>
+<item name="PAD" rev="8">
+<attrib name="value" value="6"/></item>
+</group>
+<group name="IBUF_DELAY_ADJ_BBOX">
+<item name="IBUF_OUT" rev="8">
+<attrib name="value" value="6"/></item>
+<item name="SEL_IN" rev="8">
+<attrib name="value" value="6"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="8">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="IOB">
+<item name="O1" rev="8">
+<attrib name="value" value="8"/></item>
+<item name="PAD" rev="8">
+<attrib name="value" value="8"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

@@ -1,0 +1,23 @@
+Release 14.7 - par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Wed Jun 29 16:55:20 2022
+
+12 signals are not completely routed.
+
+WARNING:ParHelpers:360 - Design is not completely routed.
+
+   GLOBAL_LOGIC0
+   GLOBAL_LOGIC1
+   ULA_FINAL/N11
+   ULA_FINAL/esc<0>
+   ULA_FINAL/esc<1>
+   ULA_FINAL/esc<2>
+   ULA_FINAL/esc<3>
+   confirma_IBUF
+   confirma_IBUF1
+   reset_IBUF
+   resultado_0_OBUF
+   resultado_2_OBUF
+
+

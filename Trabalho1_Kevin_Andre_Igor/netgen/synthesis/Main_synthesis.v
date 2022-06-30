@@ -6,18 +6,18 @@
 // /___/  \  /    Vendor: Xilinx
 // \   \   \/     Version: P.20131013
 //  \   \         Application: netgen
-//  /   /         Filename: .v
-// /___/   /\     Timestamp: Wed Jun 22 16:16:10 2022
+//  /   /         Filename: Main_synthesis.v
+// /___/   /\     Timestamp: Wed Jun 29 16:53:49 2022
 // \   \  /  \ 
 //  \___\/\___\
 //             
 // Command	: -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Main.ngc Main_synthesis.v 
 // Device	: xc3s700an-4-fgg484
 // Input file	: Main.ngc
-// Output file	: D:\Trabalho1_Kevin_Andre_Igor\netgen\synthesis\Main_synthesis.v
+// Output file	: /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/netgen/synthesis/Main_synthesis.v
 // # of Modules	: 1
 // Design Name	: Main
-// Xilinx        : C:\Xilinx\14.7\ISE_DS\ISE\
+// Xilinx        : /opt/Xilinx/14.7/ISE_DS/ISE/
 //             
 // Purpose:    
 //     This verilog netlist is a verification model and uses simulation 
@@ -32,6 +32,138 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 `timescale 1 ns/1 ps
+
+module Main (
+  reset, confirma, resultado, switchs
+);
+  input reset;
+  input confirma;
+  output [7 : 0] resultado;
+  input [3 : 0] switchs;
+  wire N0;
+  wire \ULA_FINAL/N11 ;
+  wire confirma_IBUF_7;
+  wire confirma_IBUF1;
+  wire reset_IBUF_10;
+  wire resultado_0_OBUF_19;
+  wire resultado_2_OBUF_20;
+  wire switchs_0_IBUF_25;
+  wire switchs_1_IBUF_26;
+  wire switchs_2_IBUF_27;
+  wire switchs_3_IBUF_28;
+  wire [3 : 0] \ULA_FINAL/esc ;
+  GND   XST_GND (
+    .G(N0)
+  );
+  LDC   \ULA_FINAL/esc_3  (
+    .CLR(reset_IBUF_10),
+    .D(switchs_3_IBUF_28),
+    .G(confirma_IBUF_7),
+    .Q(\ULA_FINAL/esc [3])
+  );
+  LDC   \ULA_FINAL/esc_2  (
+    .CLR(reset_IBUF_10),
+    .D(switchs_2_IBUF_27),
+    .G(confirma_IBUF_7),
+    .Q(\ULA_FINAL/esc [2])
+  );
+  LDC   \ULA_FINAL/esc_1  (
+    .CLR(reset_IBUF_10),
+    .D(switchs_1_IBUF_26),
+    .G(confirma_IBUF_7),
+    .Q(\ULA_FINAL/esc [1])
+  );
+  LDC   \ULA_FINAL/esc_0  (
+    .CLR(reset_IBUF_10),
+    .D(switchs_0_IBUF_25),
+    .G(confirma_IBUF_7),
+    .Q(\ULA_FINAL/esc [0])
+  );
+  LUT3 #(
+    .INIT ( 8'h10 ))
+  \ULA_FINAL/resultado_0_mux0004111  (
+    .I0(\ULA_FINAL/esc [2]),
+    .I1(\ULA_FINAL/esc [3]),
+    .I2(confirma_IBUF1),
+    .O(\ULA_FINAL/N11 )
+  );
+  LUT3 #(
+    .INIT ( 8'h40 ))
+  \ULA_FINAL/resultado_0_mux000411  (
+    .I0(\ULA_FINAL/esc [0]),
+    .I1(\ULA_FINAL/esc [1]),
+    .I2(\ULA_FINAL/N11 ),
+    .O(resultado_2_OBUF_20)
+  );
+  LUT3 #(
+    .INIT ( 8'h60 ))
+  \ULA_FINAL/resultado_0_mux00041  (
+    .I0(\ULA_FINAL/esc [0]),
+    .I1(\ULA_FINAL/esc [1]),
+    .I2(\ULA_FINAL/N11 ),
+    .O(resultado_0_OBUF_19)
+  );
+  IBUF   confirma_IBUF (
+    .I(confirma),
+    .O(confirma_IBUF1)
+  );
+  IBUF   reset_IBUF (
+    .I(reset),
+    .O(reset_IBUF_10)
+  );
+  IBUF   switchs_3_IBUF (
+    .I(switchs[3]),
+    .O(switchs_3_IBUF_28)
+  );
+  IBUF   switchs_2_IBUF (
+    .I(switchs[2]),
+    .O(switchs_2_IBUF_27)
+  );
+  IBUF   switchs_1_IBUF (
+    .I(switchs[1]),
+    .O(switchs_1_IBUF_26)
+  );
+  IBUF   switchs_0_IBUF (
+    .I(switchs[0]),
+    .O(switchs_0_IBUF_25)
+  );
+  OBUF   resultado_7_OBUF (
+    .I(N0),
+    .O(resultado[7])
+  );
+  OBUF   resultado_6_OBUF (
+    .I(N0),
+    .O(resultado[6])
+  );
+  OBUF   resultado_5_OBUF (
+    .I(N0),
+    .O(resultado[5])
+  );
+  OBUF   resultado_4_OBUF (
+    .I(N0),
+    .O(resultado[4])
+  );
+  OBUF   resultado_3_OBUF (
+    .I(resultado_2_OBUF_20),
+    .O(resultado[3])
+  );
+  OBUF   resultado_2_OBUF (
+    .I(resultado_2_OBUF_20),
+    .O(resultado[2])
+  );
+  OBUF   resultado_1_OBUF (
+    .I(N0),
+    .O(resultado[1])
+  );
+  OBUF   resultado_0_OBUF (
+    .I(resultado_0_OBUF_19),
+    .O(resultado[0])
+  );
+  BUFG   confirma_IBUF_BUFG (
+    .I(confirma_IBUF1),
+    .O(confirma_IBUF_7)
+  );
+endmodule
 
 
 `ifndef GLBL

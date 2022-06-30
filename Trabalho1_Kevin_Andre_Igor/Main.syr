@@ -1,18 +1,21 @@
-Release 14.7 - xst P.20131013 (nt64)
+Release 14.7 - xst P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> Parameter TMPDIR set to xst/projnav.tmp
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
  
---> Parameter xsthdpdir set to xst
+--> 
+Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
  
---> Reading design: Main.prj
+--> 
+Reading design: Main.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -104,13 +107,267 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd" in Library work.
-ERROR:HDLParsers:164 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd" Line 65. parse error, unexpected IDENTIFIER
+Compiling vhdl file "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd" in Library work.
+Architecture behavioral of Entity ula is up to date.
+Compiling vhdl file "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/main.vhd" in Library work.
+Architecture behavioral of Entity main is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ULA> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Main> in library <work> (Architecture <behavioral>).
+Entity <Main> analyzed. Unit <Main> generated.
+
+Analyzing Entity <ULA> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd" line 73: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <n1>, <n2>
+Entity <ULA> analyzed. Unit <ULA> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ULA>.
+    Related source file is "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd".
+    Register <n1> equivalent to <esc> has been removed
+    Register <n2> equivalent to <esc> has been removed
+WARNING:Xst:737 - Found 4-bit latch for signal <esc>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 1-bit xor2 for signal <resultado_0$xor0000> created at line 107.
+    Found 1-bit xor2 for signal <resultado_1$xor0000> created at line 107.
+    Found 1-bit xor2 for signal <resultado_2$xor0000> created at line 107.
+    Found 1-bit xor2 for signal <resultado_3$xor0000> created at line 107.
+Unit <ULA> synthesized.
+
+
+Synthesizing Unit <Main>.
+    Related source file is "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/main.vhd".
+Unit <Main> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 4-bit latch                                           : 1
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 4-bit latch                                           : 1
+# Xors                                                 : 4
+ 1-bit xor2                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Main> ...
+
+Optimizing unit <ULA> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Main, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Main.ngr
+Top Level Output File Name         : Main
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 4
+#      GND                         : 1
+#      LUT3                        : 3
+# FlipFlops/Latches                : 4
+#      LDC                         : 4
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 14
+#      IBUF                        : 6
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s700anfgg484-4 
+
+ Number of Slices:                        2  out of   5888     0%  
+ Number of 4 input LUTs:                  3  out of  11776     0%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    372     3%  
+    IOB Flip Flops:                       4
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+confirma                           | IBUF+BUFG              | 4     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 4     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 1.521ns
+   Maximum output required time after clock: 8.033ns
+   Maximum combinational path delay: 8.070ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'confirma'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              1.521ns (Levels of Logic = 1)
+  Source:            switchs<3> (PAD)
+  Destination:       ULA_FINAL/esc_3 (LATCH)
+  Destination Clock: confirma falling
+
+  Data Path: switchs<3> to ULA_FINAL/esc_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.849   0.420  switchs_3_IBUF (switchs_3_IBUF)
+     LDC:D                     0.252          ULA_FINAL/esc_3
+    ----------------------------------------
+    Total                      1.521ns (1.101ns logic, 0.420ns route)
+                                       (72.4% logic, 27.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'confirma'
+  Total number of paths / destination ports: 12 / 3
+-------------------------------------------------------------------------
+Offset:              8.033ns (Levels of Logic = 3)
+  Source:            ULA_FINAL/esc_2 (LATCH)
+  Destination:       resultado<3> (PAD)
+  Source Clock:      confirma falling
+
+  Data Path: ULA_FINAL/esc_2 to resultado<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDC:G->Q              1   0.728   0.563  ULA_FINAL/esc_2 (ULA_FINAL/esc_2)
+     LUT3:I0->O            2   0.648   0.479  ULA_FINAL/resultado_0_mux0004111 (ULA_FINAL/N11)
+     LUT3:I2->O            2   0.648   0.447  ULA_FINAL/resultado_0_mux000411 (resultado_2_OBUF)
+     OBUF:I->O                 4.520          resultado_3_OBUF (resultado<3>)
+    ----------------------------------------
+    Total                      8.033ns (6.544ns logic, 1.489ns route)
+                                       (81.5% logic, 18.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Delay:               8.070ns (Levels of Logic = 4)
+  Source:            confirma (PAD)
+  Destination:       resultado<3> (PAD)
+
+  Data Path: confirma to resultado<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.849   0.479  confirma_IBUF (confirma_IBUF1)
+     LUT3:I2->O            2   0.648   0.479  ULA_FINAL/resultado_0_mux0004111 (ULA_FINAL/N11)
+     LUT3:I2->O            2   0.648   0.447  ULA_FINAL/resultado_0_mux000411 (resultado_2_OBUF)
+     OBUF:I->O                 4.520          resultado_3_OBUF (resultado<3>)
+    ----------------------------------------
+    Total                      8.070ns (6.665ns logic, 1.405ns route)
+                                       (82.6% logic, 17.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.21 secs
+ 
 --> 
 
-Total memory usage is 4495056 kilobytes
 
-Number of errors   :    1 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
+Total memory usage is 607320 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

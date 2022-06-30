@@ -1,0 +1,19 @@
+NET "switchs<0>"         LOC = "V8"   | IOSTANDARD = LVCMOS33 ;
+NET "switchs<1>"         LOC = "U10"  | IOSTANDARD = LVCMOS33 ;
+NET "switchs<2>"         LOC = "U8"   | IOSTANDARD = LVCMOS33 ;
+NET "switchs<3>"         LOC = "T9"   | IOSTANDARD = LVCMOS33 ;
+
+NET "resultado<0>"       LOC = "R20"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "resultado<1>"       LOC = "T19"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "resultado<2>"       LOC = "U20"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "resultado<3>"       LOC = "U19"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "resultado<4>"       LOC = "V19"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "resultado<5>"       LOC = "V20"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "resultado<6>"       LOC = "Y22"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+NET "resultado<7>"       LOC = "W21"  | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = SLOW ;
+
+//NET "CLK_50MHZ"			 LOC = "E12"  | IOSTANDARD = LVCMOS33; 
+ 
+
+NET "confirma"     		 LOC = "T15"  | IOSTANDARD = LVCMOS33 | PULLDOWN;
+NET "reset"  		 		 LOC = "T16"  | IOSTANDARD = LVCMOS33 | PULLDOWN;

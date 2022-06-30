@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Main instance_name (
+    .switchs(switchs), 
+    .reset(reset), 
+    .confirma(confirma), 
+    .resultado(resultado)
+    );
+
+
