@@ -7,17 +7,17 @@
 // \   \   \/     Version: P.20131013
 //  \   \         Application: netgen
 //  /   /         Filename: Main_synthesis.v
-// /___/   /\     Timestamp: Wed Jun 29 16:53:49 2022
+// /___/   /\     Timestamp: Wed Jun 29 21:34:39 2022
 // \   \  /  \ 
 //  \___\/\___\
 //             
 // Command	: -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Main.ngc Main_synthesis.v 
 // Device	: xc3s700an-4-fgg484
 // Input file	: Main.ngc
-// Output file	: /home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/netgen/synthesis/Main_synthesis.v
+// Output file	: C:\Users\Usuario\OneDrive\FACUL\UFRJ\Repositorios_git\ALU_8_Operations_VHDL\Trabalho1_Kevin_Andre_Igor\netgen\synthesis\Main_synthesis.v
 // # of Modules	: 1
 // Design Name	: Main
-// Xilinx        : /opt/Xilinx/14.7/ISE_DS/ISE/
+// Xilinx        : C:\Xilinx\14.7\ISE_DS\ISE\
 //             
 // Purpose:    
 //     This verilog netlist is a verification model and uses simulation 

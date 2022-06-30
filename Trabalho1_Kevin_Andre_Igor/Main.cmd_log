@@ -169,3 +169,7 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main.ucf -p xc3s700an-fgg484-4
 ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main.ucf -p xc3s700an-fgg484-4 Main.ngc Main.ngd  
 map -intstyle ise -p xc3s700an-fgg484-4 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
 par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+xst -intstyle ise -ifn "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Main.xst" -ofn "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Main.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim Main.ngc Main_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main.ucf -p xc3s700an-fgg484-4 Main.ngc Main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Main.ucf -p xc3s700an-fgg484-4 Main.ngc Main.ngd  

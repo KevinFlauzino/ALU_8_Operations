@@ -1,21 +1,18 @@
-Release 14.7 - xst P.20131013 (lin64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
---> 
-Parameter TMPDIR set to xst/projnav.tmp
+--> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.08 secs
  
---> 
-Parameter xsthdpdir set to xst
+--> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.08 secs
  
---> 
-Reading design: Main.prj
+--> Reading design: Main.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -107,9 +104,13 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Compilation                              *
 =========================================================================
-Compiling vhdl file "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd" in Library work.
+WARNING:HDLParsers:3607 - Unit work/Main is now defined in a different file.  It was defined in "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/main.vhd", and is now defined in "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd".
+WARNING:HDLParsers:3607 - Unit work/Main/Behavioral is now defined in a different file.  It was defined in "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/main.vhd", and is now defined in "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd".
+WARNING:HDLParsers:3607 - Unit work/ULA is now defined in a different file.  It was defined in "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd", and is now defined in "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd".
+WARNING:HDLParsers:3607 - Unit work/ULA/Behavioral is now defined in a different file.  It was defined in "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd", and is now defined in "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd".
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd" in Library work.
 Architecture behavioral of Entity ula is up to date.
-Compiling vhdl file "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/main.vhd" in Library work.
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd" in Library work.
 Architecture behavioral of Entity main is up to date.
 
 =========================================================================
@@ -127,7 +128,7 @@ Analyzing Entity <Main> in library <work> (Architecture <behavioral>).
 Entity <Main> analyzed. Unit <Main> generated.
 
 Analyzing Entity <ULA> in library <work> (Architecture <behavioral>).
-WARNING:Xst:819 - "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd" line 73: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+WARNING:Xst:819 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd" line 73: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
    <n1>, <n2>
 Entity <ULA> analyzed. Unit <ULA> generated.
 
@@ -139,7 +140,7 @@ Entity <ULA> analyzed. Unit <ULA> generated.
 Performing bidirectional port resolution...
 
 Synthesizing Unit <ULA>.
-    Related source file is "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/ULA.vhd".
+    Related source file is "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd".
     Register <n1> equivalent to <esc> has been removed
     Register <n2> equivalent to <esc> has been removed
 WARNING:Xst:737 - Found 4-bit latch for signal <esc>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -151,7 +152,7 @@ Unit <ULA> synthesized.
 
 
 Synthesizing Unit <Main>.
-    Related source file is "/home/sd/Documents/Trab1/Trabalho1_Kevin_Andre_Igor/main.vhd".
+    Related source file is "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd".
 Unit <Main> synthesized.
 
 
@@ -359,15 +360,14 @@ Delay:               8.070ns (Levels of Logic = 4)
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.21 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.73 secs
  
 --> 
 
-
-Total memory usage is 607320 kilobytes
+Total memory usage is 4513644 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    2 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 
