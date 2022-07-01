@@ -30,25 +30,25 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity ULA is
-	PORT (switchs: in STD_LOGIC_VECTOR(3 downto 0);					
-			reset, confirma: in STD_LOGIC;
-			resultado: out STD_LOGIC_VECTOR(7 downto 0)
-			);
+	PORT (x, y: 	 in STD_LOGIC_VECTOR(3 downto 0);
+		  seletor:    	 in STD_LOGIC_VECTOR(2 downto 0);
+		  resultado: out STD_LOGIC_VECTOR(7 downto 0)
+	);
 end ULA;
 
-architecture Behavioral of ULA is
+architecture structural of ULA is
 
 	--MULTIPLICADOR
 	COMPONENT multiplicador_4bits is
 		PORT (X, Y: in STD_LOGIC_VECTOR(3 downto 0);
-		 P: out STD_LOGIC_VECTOR(7 downto 0)
+		 	  resultado: out STD_LOGIC_VECTOR(7 downto 0)
 		 );
 	END COMPONENT;
 	
 	--SOMADOR
 	COMPONENT somador_4bits is
-	PORT (X, Y: in STD_LOGIC_VECTOR (3 downto 0);
-			S: out STD_LOGIC_VECTOR (3 downto 0);
+		PORT (X, Y: in STD_LOGIC_VECTOR (3 downto 0);
+			resultado: out STD_LOGIC_VECTOR (3 downto 0);
 			Cin: in STD_LOGIC;
 			Cout: out STD_LOGIC);
 	END COMPONENT;
@@ -56,68 +56,43 @@ architecture Behavioral of ULA is
 	--SUBTRATOR
 	COMPONENT subtrator_4bits is
 		PORT (X, Y: in STD_LOGIC_VECTOR (3 downto 0);
-				D: out STD_LOGIC_VECTOR (3 downto 0);
-				Cin: in STD_LOGIC);
+			resultado: out STD_LOGIC_VECTOR (3 downto 0)
+			cout: out STD_LOGIC(3 downto 0)
+		);
 	END COMPONENT;
 	
-	--CONTADOR
-	COMPONENT contador is
-		PORT (TEMPO_SEGUNDOS, CLK_50MHZ : IN INTEGER;
-			END_T :OUT STD_LOGIC);
-	END COMPONENT;
-	
-	SIGNAL n1, n2, esc: STD_LOGIC_VECTOR(3 DOWNTO 0);
+	--MUX 8X1 8 BITS
+	COMPONENT mux81_8bits is
+		PORT (x0, x1, x2, x3, x4, x5, x6, x7: in STD_LOGIC_VECTOR(7 downto 0);
+			  seletor: in STD_LOGIC_VECTOR(2 downto 0); 
+			  z: out STD_LOGIC_VECTOR(7 downto 0)
+		);
+  END COMPONENT;
+
+
+	signal parcial_soma: STD_LOGIC_VECTOR(3 DOWNTO 0);
+	signal cout_soma:    STD_LOGIC;
 	
 begin
 
-	PROCESS(switchs, reset, confirma)
-		--Declarando variveis	
-					
-		--Incio da ULA
-			BEGIN		
-				resultado <= "00000000";
-				
-				if confirma = '1' then
-					n1 <= switchs;  --switches
-				end if;
-					
-				
-				if confirma = '1' then
-					n2 <= switchs;--switches
-				end if;
-		
-				
-				if confirma = '1' then
-					esc <= switchs; --switches
-				-------------------------------------------Op.Lgicas
-					If esc = "0000" then 			--AND
-						resultado (3 DOWNTO 0) <= n1 AND n2;
-						
-					elsif esc = "0001" then 		--OR
-						resultado (3 DOWNTO 0)  <= n1 OR n2;
-						
-					elsIf esc = "0010" then 		--NOT
-						resultado (3 DOWNTO 0)  <= NOT n1;
-						
-						 --Clock da placa = 50Mhz
-								
-						resultado (3 DOWNTO 0)  <= NOT n2;
-						
-					elsIf esc = "0011" then	 	--XOR
-						resultado (3 DOWNTO 0)  <= n1 XOR n2;
-							
-					
-					-------------------------------------------Op.Artmticas
-					
-							
-					end if;					
-				end if;	
-				
-				if(reset = '1') then
-					n1  <= "0000";
-					n2  <= "0000";
-					esc <= "0000";
-				end if;
-	END PROCESS;	
-end Behavioral;
+	
+	SOMADOR:   somador_4bits(X, Y, parcial_soma, cout_soma);
+	SUBTRATOR: subtrator_4bits(X, Y, resultado_subtracao);
+	
+	MUX: mux81 PORT MAP ("000" & cout_soma & parcial_soma, --Somador 
+						 , 								   --Subtrator
+						 , 
+						 x3(0), 
+						 x4(0), 
+						 x5(0), 
+						 x6(0), 
+						 x7(0),
+						 s, 
+						 resultado);
+
+
+
+end structural;
+
+
 
