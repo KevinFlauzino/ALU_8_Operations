@@ -79,36 +79,53 @@ architecture structural of ULA is
 			  seletor: in STD_LOGIC_VECTOR(2 downto 0); 
 			  z: out STD_LOGIC_VECTOR(7 downto 0)
 		);
-		
-  END COMPONENT;
+	END COMPONENT;
+
+	--COMPARADOR 4 BITS
+	COMPONENT comparador_4bits is
+		PORT (A, B : in STD_LOGIC_VECTOR(3 downto 0);
+			Z_maior : out STD_LOGIC
+			);
+	END COMPONENT;
+
 
 	signal parcial_soma: STD_LOGIC_VECTOR(3 DOWNTO 0);
 	signal cout_soma:    STD_LOGIC;
+	signal resultado_subtracao: STD_LOGIC_VECTOR(3 DOWNTO 0);
 	signal resultado_multiplicacao: STD_LOGIC_VECTOR(7 DOWNTO 0);
+	signal resultado_incremento: STD_LOGIC_VECTOR(3 DOWNTO 0);
 	signal resultado_and: STD_LOGIC_VECTOR(3 DOWNTO 0);
 	signal resultado_or: STD_LOGIC_VECTOR(3 DOWNTO 0);
-	
+	signal resultado_not: STD_LOGIC_VECTOR(3 DOWNTO 0);
+	signal resultado_xor: STD_LOGIC_VECTOR(3 DOWNTO 0);
+	signal negativo: STD_LOGIC; --Usado para detectar se o resultado do subtrator é negativo
+
 begin
 
-	
-	SOMADOR:   	   somador_4bits(X, Y, parcial_soma, cout_soma);
-	SUBTRATOR:     subtrator_4bits(X, Y, resultado_subtracao);
-	MULTIPLICADOR: multiplicador_4bits(X, Y, resultado_multiplicacao);
-	OPERACAO_AND:  and_4bits(X, Y, resultado_and); 
-	OPERACAO_OR:   or_4bits(X, Y, resultado_or);
+	--OPERADORES
+	SOMADOR:   	   somador_4bits       PORT MAP (X, Y, parcial_soma, cout_soma);
+	SUBTRATOR:     subtrator_4bits     PORT MAP (X, Y, resultado_subtracao);
+	MULTIPLICADOR: multiplicador_4bits PORT MAP (X, Y, resultado_multiplicacao);
+	INCREMENTO_1:  incremento_1_4bits  PORT MAP (X, Y, resultado_incremento, cout_inc);
+	OPERACAO_AND:  and_4bits           PORT MAP (X, Y, resultado_and); 
+	OPERACAO_OR:   or_4bits            PORT MAP (X, Y, resultado_or);
+	OPERACAO_NOT:  not_4bits           PORT MAP (X, resultado_not);
+	OPERACAO_XOR:  xor_4bits           PORT MAP (X, Y, resultado_xor);
 
+	COMPARADOR_NEGATIVO: comparador_4bits PORT MAP (X, Y, negativo);
 
-	MUX: mux81 PORT MAP ("000" & cout_soma & parcial_soma, --Somador 
-						 '0', 								   --Subtrator
-						 resultado_multiplicacao, 
-						 "0000" & resultado_and, 
-						 "0000" & resultado_or, 
-						 x4(0), 
-						 x5(0), 
-						 x6(0), 
-						 x7(0),
-						 s, 
-						 resultado);
+	MUX: mux81 PORT MAP (
+			"000" & cout_soma & parcial_soma,         --SOMADOR
+			negativo & negativo & negativo & negativo & resultado_subtracao, --SUBTRATOR
+			resultado_multiplicacao,                  --MULTIPLICADOR
+			"000"  & cout_inc & resultado_incremento, --INCREMENTO 
+			"0000" & resultado_and,                   --AND
+			"0000" & resultado_or,                    --OR
+			"0000" & resultado_not,                   --NOT 
+			"0000" & resultado_xor,                   --XOR 
+			s, 
+			resultado
+	);
 						 
 end structural;
 
