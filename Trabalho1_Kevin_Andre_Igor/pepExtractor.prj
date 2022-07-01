@@ -1,1 +1,3 @@
-work	"comparador_4bits.vhd"
+work	"Incremento1_4bits.vhd"
+work	"full_adder.vhd"
+work	"somador_4bits.vhd"

@@ -1,2 +1,15 @@
-EN comparador_4bits NULL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/comparador_4bits.vhd sub00/vhpl00 1656644171
-AR comparador_4bits behavioral C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/comparador_4bits.vhd sub00/vhpl01 1656644172
+EN half_adder NULL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/half_adder.vhd sub00/vhpl10 1656649288
+AR or_1bit dataflow C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_1bit.vhd sub00/vhpl07 1656649283
+EN subtrator_4bits NULL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/subtrator_4bits.vhd sub00/vhpl12 1656649290
+AR somador_4bits structural C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd sub00/vhpl03 1656649287
+EN somador_4bits NULL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd sub00/vhpl02 1656649286
+AR and_1bit dataflow C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/and_1bit.vhd sub00/vhpl09 1656649285
+AR half_adder dataflow C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/half_adder.vhd sub00/vhpl11 1656649289
+AR subtrator_4bits behavioral C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/subtrator_4bits.vhd sub00/vhpl13 1656649291
+EN multiplicador_4bits NULL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd sub00/vhpl14 1656649292
+EN or_1bit NULL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_1bit.vhd sub00/vhpl06 1656649282
+EN full_adder NULL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd sub00/vhpl00 1656649280
+AR incremento1_4bits behavioral C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.vhd sub00/vhpl05 1656647445
+EN incremento1_4bits NULL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.vhd sub00/vhpl04 1656647444
+EN and_1bit NULL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/and_1bit.vhd sub00/vhpl08 1656649284
+AR full_adder dataflow C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd sub00/vhpl01 1656649281

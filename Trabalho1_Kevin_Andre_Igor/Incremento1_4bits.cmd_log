@@ -1,0 +1,8 @@
+vhdtdtfi -lib work full_adder.vhd -lib work somador_4bits.vhd -lib work Incremento1_4bits.vhd -prj Trabalho1_Kevin_Andre_Igor -o Incremento1_4bits.spl -module Incremento1_4bits -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a Incremento1_4bits.spl C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.sym 
+vhdtdtfi -lib work full_adder.vhd -lib work somador_4bits.vhd -lib work Incremento1_4bits.vhd -prj Trabalho1_Kevin_Andre_Igor -o Incremento1_4bits.spl -module Incremento1_4bits -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a Incremento1_4bits.spl C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.sym 
+vhdtdtfi -lib work full_adder.vhd -lib work somador_4bits.vhd -lib work Incremento1_4bits.vhd -prj Trabalho1_Kevin_Andre_Igor -o Incremento1_4bits.spl -module Incremento1_4bits -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a Incremento1_4bits.spl C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.sym 
+vhdtdtfi -lib work full_adder.vhd -lib work somador_4bits.vhd -lib work Incremento1_4bits.vhd -prj Trabalho1_Kevin_Andre_Igor -o Incremento1_4bits.spl -module Incremento1_4bits -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3a Incremento1_4bits.spl C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.sym 

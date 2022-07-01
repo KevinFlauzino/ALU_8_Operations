@@ -31,7 +31,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity Main is
 	PORT (switchs: in STD_LOGIC_VECTOR(3 downto 0);					
-			reset, confirma: in STD_LOGIC;
+			reset, confirma, CLK_50MHZ: in STD_LOGIC;
 			resultado: out STD_LOGIC_VECTOR(7 downto 0)
 			);	
 end Main;
@@ -44,9 +44,53 @@ architecture Behavioral of Main is
 			resultado: out STD_LOGIC_VECTOR(7 downto 0)
 			);
 	END COMPONENT;
+	
+	SIGNAL n1, n2: STD_LOGIC_VECTOR(3 downto 0);
+	SIGNAL esc: STD_LOGIC_VECTOR(2 downto 0);
+	
 begin
 
-	ULA_FINAL : ULA port map (switchs, reset, confirma, resultado);
+	PROCESS(reset, confirma, CLK_50MHZ) is
+		--Variáveis
+		VARIABLE auxiliar: INTEGER := '0';
+	BEGIN
+		--Adicionando primeiro número
+		if confirma = '1' then
+			n1 <= switchs;
+			auxiliar := auxiliar + 1;
+		end if;
+		
+		--Adicionando segundo número
+		if auxiliar >= 0 then
+			wait until confirma'event;
+			if confirma = '1' then
+				n2 <= switchs;
+				auxiliar := auxiliar + 1;
+			end if;
+		end if;
+		
+		--Escolhendo operação
+		if auxiliar >= 1 then
+			wait until confirma'event;
+			if confirma = '1' then
+				esc(0) <= switchs(0);
+				esc(1) <= switchs(1);
+				esc(2) <= switchs(2);
+				auxiliar := auxiliar + 1;
+			end if;
+		end if;
+		
+		--Implementando Reset
+		if reset = '1' then
+			n1  			<= "0000";
+			n2  			<= "0000";
+			esc 			<= "000";
+			resultado  	<= "00000000";
+		end if;		
+
+	END PROCESS;
+	
+	ULA_FINAL: ULA PORT MAP(n1, n2, esc, resultado);
 	
 end Behavioral;
 

@@ -1,0 +1,4 @@
+vhdl isim_temp "full_adder.vhd"
+vhdl isim_temp "somador_4bits.vhd"
+vhdl isim_temp "Incremento1_4bits.vhd"
+vhdl isim_temp "TESTE_incrementoDe1.vhd"

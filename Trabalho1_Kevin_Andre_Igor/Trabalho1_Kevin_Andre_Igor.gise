@@ -23,15 +23,19 @@
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
     <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Incremento1_4bits.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="Incremento1_4bits.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Incremento1_4bits.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Incremento1_4bits.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Incremento1_4bits.xst"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Main.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Main_guide.ncd" xil_pn:origination="imported"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TESTE_comparador_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TESTE_comparador_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TESTE_comparador_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TESTE_comparador_stx_beh.prj"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparador_4bits.prj"/>
-    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="comparador_4bits.stx"/>
-    <file xil_pn:fileType="FILE_XST" xil_pn:name="comparador_4bits.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TESTE_contador_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TESTE_incrementoDe1_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="TESTE_incrementoDe1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="TESTE_incrementoDe1_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="TESTE_incrementoDe1_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="half_adder_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
@@ -42,11 +46,19 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1656644412" xil_pn:in_ck="622451451178452467" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1656644412">
+    <transform xil_pn:end_ts="1656645462" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1656645462">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1656647521" xil_pn:in_ck="5999566262613383373" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1656647521">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Incremento1_4bits.vhd"/>
+      <outfile xil_pn:name="TESTE_and4bits.vhd"/>
       <outfile xil_pn:name="TESTE_comparador.vhd"/>
+      <outfile xil_pn:name="TESTE_incrementoDe1.vhd"/>
       <outfile xil_pn:name="TESTE_multiplicador.vhd"/>
+      <outfile xil_pn:name="TESTE_or4bits.vhd"/>
       <outfile xil_pn:name="TESTE_somador.vhd"/>
       <outfile xil_pn:name="TESTE_subtrator.vhd"/>
       <outfile xil_pn:name="ULA.vhd"/>
@@ -59,30 +71,35 @@
       <outfile xil_pn:name="main.vhd"/>
       <outfile xil_pn:name="multiplicador_4bits.vhd"/>
       <outfile xil_pn:name="or_1bit.vhd"/>
+      <outfile xil_pn:name="or_4bits.vhd"/>
       <outfile xil_pn:name="somador_4bits.vhd"/>
       <outfile xil_pn:name="subtrator_4bits.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1656644221" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="5703122933298424780" xil_pn:start_ts="1656644221">
+    <transform xil_pn:end_ts="1656647279" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-4361076191586415150" xil_pn:start_ts="1656647279">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1656644221" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2617312150906639660" xil_pn:start_ts="1656644221">
+    <transform xil_pn:end_ts="1656647279" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3505018053658437018" xil_pn:start_ts="1656647279">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1656644221" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7668595073733174420" xil_pn:start_ts="1656644221">
+    <transform xil_pn:end_ts="1656645462" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7668595073733174420" xil_pn:start_ts="1656645462">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1656644397" xil_pn:in_ck="622451451178452467" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1656644397">
+    <transform xil_pn:end_ts="1656647498" xil_pn:in_ck="5999566262613383373" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1656647498">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Incremento1_4bits.vhd"/>
+      <outfile xil_pn:name="TESTE_and4bits.vhd"/>
       <outfile xil_pn:name="TESTE_comparador.vhd"/>
+      <outfile xil_pn:name="TESTE_incrementoDe1.vhd"/>
       <outfile xil_pn:name="TESTE_multiplicador.vhd"/>
+      <outfile xil_pn:name="TESTE_or4bits.vhd"/>
       <outfile xil_pn:name="TESTE_somador.vhd"/>
       <outfile xil_pn:name="TESTE_subtrator.vhd"/>
       <outfile xil_pn:name="ULA.vhd"/>
@@ -95,10 +112,11 @@
       <outfile xil_pn:name="main.vhd"/>
       <outfile xil_pn:name="multiplicador_4bits.vhd"/>
       <outfile xil_pn:name="or_1bit.vhd"/>
+      <outfile xil_pn:name="or_4bits.vhd"/>
       <outfile xil_pn:name="somador_4bits.vhd"/>
       <outfile xil_pn:name="subtrator_4bits.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1656644399" xil_pn:in_ck="622451451178452467" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6070218524695912940" xil_pn:start_ts="1656644397">
+    <transform xil_pn:end_ts="1656647500" xil_pn:in_ck="5999566262613383373" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="615906458201743672" xil_pn:start_ts="1656647498">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
@@ -106,20 +124,20 @@
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="TESTE_comparador_beh.prj"/>
-      <outfile xil_pn:name="TESTE_comparador_isim_beh.exe"/>
+      <outfile xil_pn:name="TESTE_incrementoDe1_beh.prj"/>
+      <outfile xil_pn:name="TESTE_incrementoDe1_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1656644399" xil_pn:in_ck="-1230075554972347141" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1625893430633149841" xil_pn:start_ts="1656644399">
+    <transform xil_pn:end_ts="1656647500" xil_pn:in_ck="3049359980635692385" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="865409426408182555" xil_pn:start_ts="1656647500">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="TESTE_comparador_isim_beh.wdb"/>
+      <outfile xil_pn:name="TESTE_incrementoDe1_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
