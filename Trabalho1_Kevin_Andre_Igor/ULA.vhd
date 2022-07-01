@@ -87,6 +87,14 @@ architecture structural of ULA is
 			Z_maior : out STD_LOGIC
 			);
 	END COMPONENT;
+	
+	--INCREMENTO DE 1
+		COMPONENT Incremento1_4bits is
+		PORT( X: in STD_LOGIC_VECTOR(3 downto 0);
+			Z: out STD_LOGIC_VECTOR(3 downto 0);
+			coutX: out STD_LOGIC
+			);
+		END COMPONENT;
 
 
 	signal parcial_soma: STD_LOGIC_VECTOR(3 DOWNTO 0);
@@ -99,6 +107,7 @@ architecture structural of ULA is
 	signal resultado_not: STD_LOGIC_VECTOR(3 DOWNTO 0);
 	signal resultado_xor: STD_LOGIC_VECTOR(3 DOWNTO 0);
 	signal negativo: STD_LOGIC; --Usado para detectar se o resultado do subtrator é negativo
+	signal cout_inc: STD_LOGIC;
 
 begin
 
@@ -106,7 +115,7 @@ begin
 	SOMADOR:   	   somador_4bits       PORT MAP (X, Y, parcial_soma, cout_soma);
 	SUBTRATOR:     subtrator_4bits     PORT MAP (X, Y, resultado_subtracao);
 	MULTIPLICADOR: multiplicador_4bits PORT MAP (X, Y, resultado_multiplicacao);
-	INCREMENTO_1:  incremento_1_4bits  PORT MAP (X, Y, resultado_incremento, cout_inc);
+	INCREMENTO_1:  Incremento1_4bits   PORT MAP (X, resultado_incremento, cout_inc);
 	OPERACAO_AND:  and_4bits           PORT MAP (X, Y, resultado_and); 
 	OPERACAO_OR:   or_4bits            PORT MAP (X, Y, resultado_or);
 	OPERACAO_NOT:  not_4bits           PORT MAP (X, resultado_not);
