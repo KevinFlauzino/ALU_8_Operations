@@ -31,21 +31,32 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity subtrator_4bits is
 		PORT (X, Y: in STD_LOGIC_VECTOR (3 downto 0);
-				D: out STD_LOGIC_VECTOR (3 downto 0);
-				Cin: in STD_LOGIC);
+				diferenca: out STD_LOGIC_VECTOR (3 downto 0);
+				Cout: out STD_LOGIC);
 end subtrator_4bits;
 
 architecture Behavioral of subtrator_4bits is
-		COMPONENT somador_4bits IS
-			PORT (X, Y: in STD_LOGIC_VECTOR (3 downto 0);
+	--SOMADOR 4 BITS
+	COMPONENT somador_4bits IS
+		PORT (X, Y: in STD_LOGIC_VECTOR (3 downto 0);
 			S: out STD_LOGIC_VECTOR (3 downto 0);
 			Cin: in STD_LOGIC;
-			Cout: out STD_LOGIC);
-		END COMPONENT;
+			Cout: out STD_LOGIC
+		);
+	END COMPONENT;
+
+	--COMPARADOR 4 BITS
+	COMPONENT comparador_4bits is
+		PORT (A, B : in STD_LOGIC_VECTOR(3 downto 0);
+			Z_maior : out STD_LOGIC
+		);
+	END COMPONENT;
 
 begin
 
-	d1: somador_4bits PORT MAP (X, NOT Y, D, '1');
+	VERIFICADOR_NEGATIVO: comparador_4bits PORT MAP (X, Y, Cout); -- Cout é 1, se resultado é negativo
+
+	d1: somador_4bits PORT MAP (X, NOT Y, diferenca, '1');
 
 end Behavioral;
 
