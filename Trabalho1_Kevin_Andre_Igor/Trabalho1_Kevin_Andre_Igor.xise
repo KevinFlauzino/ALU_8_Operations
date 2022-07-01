@@ -116,6 +116,18 @@
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="45"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="45"/>
     </file>
+    <file xil_pn:name="not_1bit.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="44"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="44"/>
+    </file>
+    <file xil_pn:name="not_4bits.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="45"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="45"/>
+    </file>
+    <file xil_pn:name="xor_1bit.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="46"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="46"/>
+    </file>
   </files>
 
   <properties>
