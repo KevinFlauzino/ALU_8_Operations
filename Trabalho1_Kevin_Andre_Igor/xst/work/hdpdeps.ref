@@ -1,8 +1,22 @@
-V3 3
-FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/comparador_4bits.vhd 2022/06/30.23:56:08 P.20131013
-EN work/comparador_4bits 1656644171 \
-      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/comparador_4bits.vhd \
+V3 11
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd 2022/06/22.17:39:12 P.20131013
+EN work/full_adder 1656647440 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/comparador_4bits/Behavioral 1656644172 \
-      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/comparador_4bits.vhd \
-      EN work/comparador_4bits 1656644171
+AR work/full_adder/dataflow 1656647441 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd \
+      EN work/full_adder 1656647440
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.vhd 2022/07/01.00:50:30 P.20131013
+EN work/Incremento1_4bits 1656647444 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Incremento1_4bits/Behavioral 1656647445 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.vhd \
+      EN work/Incremento1_4bits 1656647444 CP somador_4bits
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd 2022/06/22.17:39:12 P.20131013
+EN work/somador_4bits 1656647442 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/somador_4bits/structural 1656647443 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd \
+      EN work/somador_4bits 1656647442 CP full_adder

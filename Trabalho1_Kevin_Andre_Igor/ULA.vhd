@@ -99,7 +99,7 @@ begin
 
 
 	MUX: mux81 PORT MAP ("000" & cout_soma & parcial_soma, --Somador 
-						 , 								   --Subtrator
+						 '0', 								   --Subtrator
 						 resultado_multiplicacao, 
 						 "0000" & resultado_and, 
 						 "0000" & resultado_or, 
