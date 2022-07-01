@@ -39,10 +39,9 @@ end Main;
 architecture Behavioral of Main is
 
 	COMPONENT ULA is
-		PORT (switchs: in STD_LOGIC_VECTOR(3 downto 0);					
-			reset, confirma: in STD_LOGIC;
-			resultado: out STD_LOGIC_VECTOR(7 downto 0)
-			);
+		PORT (x, y: 	  in STD_LOGIC_VECTOR(3 downto 0);
+		  seletor:    in STD_LOGIC_VECTOR(2 downto 0);
+		  resultado: out STD_LOGIC_VECTOR(7 downto 0));
 	END COMPONENT;
 	
 	SIGNAL n1, n2: STD_LOGIC_VECTOR(3 downto 0);
@@ -52,7 +51,7 @@ begin
 
 	PROCESS(reset, confirma, CLK_50MHZ) is
 		--Variáveis
-		VARIABLE auxiliar: INTEGER := '0';
+		VARIABLE auxiliar: INTEGER := 0;
 	BEGIN
 		--Adicionando primeiro número
 		if confirma = '1' then
@@ -61,8 +60,7 @@ begin
 		end if;
 		
 		--Adicionando segundo número
-		if auxiliar >= 0 then
-			wait until confirma'event;
+		if auxiliar >= 0 then		
 			if confirma = '1' then
 				n2 <= switchs;
 				auxiliar := auxiliar + 1;
@@ -70,8 +68,7 @@ begin
 		end if;
 		
 		--Escolhendo operação
-		if auxiliar >= 1 then
-			wait until confirma'event;
+		if auxiliar >= 1 then			
 			if confirma = '1' then
 				esc(0) <= switchs(0);
 				esc(1) <= switchs(1);
@@ -93,4 +90,3 @@ begin
 	ULA_FINAL: ULA PORT MAP(n1, n2, esc, resultado);
 	
 end Behavioral;
-

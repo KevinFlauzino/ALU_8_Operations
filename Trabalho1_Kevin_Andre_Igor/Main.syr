@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
+Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: Main.prj
 
@@ -105,7 +105,17 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd" in Library work.
-Architecture dataflow of Entity full_adder is up to date.
+Entity <full_adder> compiled.
+Entity <full_adder> (Architecture <dataflow>) compiled.
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/mux81.vhd" in Library work.
+Entity <mux81> compiled.
+Entity <mux81> (Architecture <dataflow>) compiled.
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/xor_1bit.vhd" in Library work.
+Entity <xor_1bit> compiled.
+Entity <xor_1bit> (Architecture <dataflow>) compiled.
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/not_1bit.vhd" in Library work.
+Entity <not_1bit> compiled.
+Entity <not_1bit> (Architecture <dataflow>) compiled.
 Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_1bit.vhd" in Library work.
 Entity <or_1bit> compiled.
 Entity <or_1bit> (Architecture <dataflow>) compiled.
@@ -113,10 +123,14 @@ Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8
 Entity <and_1bit> compiled.
 Entity <and_1bit> (Architecture <dataflow>) compiled.
 Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd" in Library work.
-Architecture structural of Entity somador_4bits is up to date.
+Entity <somador_4bits> compiled.
+Entity <somador_4bits> (Architecture <structural>) compiled.
 Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/half_adder.vhd" in Library work.
 Entity <half_adder> compiled.
 Entity <half_adder> (Architecture <dataflow>) compiled.
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/comparador_4bits.vhd" in Library work.
+Entity <comparador_4bits> compiled.
+Entity <comparador_4bits> (Architecture <Behavioral>) compiled.
 Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/subtrator_4bits.vhd" in Library work.
 Entity <subtrator_4bits> compiled.
 Entity <subtrator_4bits> (Architecture <Behavioral>) compiled.
@@ -154,7 +168,7 @@ ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/AL
 ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 70. Expression is not a static name.
 --> 
 
-Total memory usage is 4495112 kilobytes
+Total memory usage is 4495072 kilobytes
 
 Number of errors   :   30 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

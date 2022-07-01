@@ -1,6 +1,0 @@
-[Inputs]
-=X[3:0]=
-[Outputs]
-coutX
-=Z[3:0]=
-[BiDir]

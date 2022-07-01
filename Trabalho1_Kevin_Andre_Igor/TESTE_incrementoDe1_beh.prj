@@ -1,4 +1,0 @@
-vhdl work "full_adder.vhd"
-vhdl work "somador_4bits.vhd"
-vhdl work "Incremento1_4bits.vhd"
-vhdl work "TESTE_incrementoDe1.vhd"

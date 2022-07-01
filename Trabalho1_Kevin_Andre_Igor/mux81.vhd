@@ -41,13 +41,13 @@ architecture dataflow of mux81 is
 
 begin
 	
-		z <= (x0 and (not s(2)) and (not s(1)) and (not s(0)) OR
-          	(x1 and (not s(2)) and (not s(1)) and (s(0)) OR) 
-			(x2 and (not s(2)) and (s(1)) and (not s(0)) OR)  
-			(x3 and (not s(2)) and (s(1)) and (s(0)) OR)  
-			(x4 and (s(2)) and (not s(1)) and (not s(0)) OR)  
-			(x5 and (s(2)) and (not s(1)) and (s(0)) OR)  
-			(x6 and (s(2)) and (s(1)) and (not s(0)) OR)  
-			(x7 and (s(2)) and (s(1)) and (s(0))))
+		z <= 	(((x0 and (not s(2))) and (not s(1)) and (not s(0))) OR
+          	((x1 and (not s(2))) and (not s(1)) and (s(0))) OR 
+				((x2 and (not s(2))) and (s(1)) and (not s(0))) OR  
+				((x3 and (not s(2))) and (s(1)) and (s(0))) OR  
+				((x4 and (s(2))) and (not s(1)) and (not s(0))) OR  
+				((x5 and (s(2))) and (not s(1)) and (s(0))) OR  
+				((x6 and (s(2))) and (s(1)) and (not s(0))) OR 
+				((x7 and (s(2))) and (s(1)) and (s(0))));
 
 end dataflow;

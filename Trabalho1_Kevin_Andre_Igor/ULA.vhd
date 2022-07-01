@@ -41,14 +41,14 @@ architecture structural of ULA is
 	--MULTIPLICADOR
 	COMPONENT multiplicador_4bits is
 		PORT (X, Y: in STD_LOGIC_VECTOR(3 downto 0);
-		 	  resultado: out STD_LOGIC_VECTOR(7 downto 0)
+		 P: out STD_LOGIC_VECTOR(7 downto 0)
 		 );
 	END COMPONENT;
 	
 	--SOMADOR
 	COMPONENT somador_4bits is
 		PORT (X, Y: in STD_LOGIC_VECTOR (3 downto 0);
-			resultado: out STD_LOGIC_VECTOR (3 downto 0);
+			S: out STD_LOGIC_VECTOR (3 downto 0);
 			Cin: in STD_LOGIC;
 			Cout: out STD_LOGIC);
 	END COMPONENT;
@@ -56,9 +56,8 @@ architecture structural of ULA is
 	--SUBTRATOR
 	COMPONENT subtrator_4bits is
 		PORT (X, Y: in STD_LOGIC_VECTOR (3 downto 0);
-			resultado: out STD_LOGIC_VECTOR (3 downto 0);
-			cout: out STD_LOGIC
-		);
+				diferenca: out STD_LOGIC_VECTOR (3 downto 0);
+				Cout: out STD_LOGIC);
 	END COMPONENT;
 	
 	--AND
@@ -75,20 +74,30 @@ architecture structural of ULA is
 	
 	--MUX 8X1 8 BITS
 	COMPONENT mux81_8bits is
-		PORT (x0, x1, x2, x3, x4, x5, x6, x7: in STD_LOGIC_VECTOR(7 downto 0);
-			  seletor: in STD_LOGIC_VECTOR(2 downto 0); 
-			  z: out STD_LOGIC_VECTOR(7 downto 0)
-		);
+			PORT (x0, x1, x2, x3, x4, x5, x6, x7: in STD_LOGIC_VECTOR(7 downto 0);
+		  s: in STD_LOGIC_VECTOR(2 downto 0); 
+		  z: out STD_LOGIC_VECTOR(7 downto 0));
 	END COMPONENT;
 	
 	--INCREMENTO DE 1
-		COMPONENT Incremento1_4bits is
+	COMPONENT Incremento1_4bits is
 		PORT( X: in STD_LOGIC_VECTOR(3 downto 0);
 			Z: out STD_LOGIC_VECTOR(3 downto 0);
 			coutX: out STD_LOGIC
 			);
-		END COMPONENT;
-
+	END COMPONENT;
+		
+	--NOT
+	COMPONENT not_4bits is
+		PORT (X: in STD_LOGIC_VECTOR (3 downto 0);
+		S: out STD_LOGIC_VECTOR (3 downto 0));
+	END COMPONENT;
+	
+	--XOR
+	COMPONENT xor_4bits is
+		PORT (X, Y: in STD_LOGIC_VECTOR (3 downto 0);
+		S: out STD_LOGIC_VECTOR (3 downto 0));
+	END COMPONENT;
 
 	signal parcial_soma: STD_LOGIC_VECTOR(3 DOWNTO 0);
 	signal sinal:    STD_LOGIC;
@@ -99,7 +108,7 @@ architecture structural of ULA is
 	signal resultado_or: STD_LOGIC_VECTOR(3 DOWNTO 0);
 	signal resultado_not: STD_LOGIC_VECTOR(3 DOWNTO 0);
 	signal resultado_xor: STD_LOGIC_VECTOR(3 DOWNTO 0);
-	signal cout_inc: STD_LOGIC;
+	signal cout_inc, cout_soma: STD_LOGIC;
 
 begin
 
@@ -113,7 +122,7 @@ begin
 	OPERACAO_NOT:  not_4bits           PORT MAP (X, resultado_not);
 	OPERACAO_XOR:  xor_4bits           PORT MAP (X, Y, resultado_xor);
 
-	MUX: mux81 PORT MAP (
+	MUX: mux81_8bits PORT MAP (
 			"000" & cout_soma & parcial_soma,         --SOMADOR
 			sinal & sinal & sinal & sinal & resultado_subtracao, --SUBTRATOR
 			resultado_multiplicacao,                  --MULTIPLICADOR
@@ -122,11 +131,8 @@ begin
 			"0000" & resultado_or,                    --OR
 			"0000" & resultado_not,                   --NOT 
 			"0000" & resultado_xor,                   --XOR 
-			s, 
+			seletor, 
 			resultado
 	);
 						 
 end structural;
-
-
-

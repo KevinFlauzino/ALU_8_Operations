@@ -1,44 +1,44 @@
-V3 54
-FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/and_1bit.vhd 2022/06/30.23:27:54 P.20131013
-EN work/and_1bit 1656649284 \
+V3 75
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/and_1bit.vhd 2022/07/01.01:41:41 P.20131013
+EN work/and_1bit 1656653103 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/and_1bit.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/and_1bit/dataflow 1656649285 \
+AR work/and_1bit/dataflow 1656653104 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/and_1bit.vhd \
-      EN work/and_1bit 1656649284
+      EN work/and_1bit 1656653103
 EN work/and_4bits 0 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/and_4bits.vhd \
       PB ieee/std_logic_1164 1381692176
 AR work/and_4bits/Behavioral 0 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/and_4bits.vhd \
       EN work/and_4bits 0 CP and_1bit
-EN work/comparador_4bits 0 \
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/comparador_4bits.vhd 2022/07/01.01:41:41 P.20131013
+EN work/comparador_4bits 1656653109 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/comparador_4bits.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/comparador_4bits/Behavioral 0 \
+AR work/comparador_4bits/Behavioral 1656653110 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/comparador_4bits.vhd \
-      EN work/comparador_4bits 0
-FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd 2022/06/22.17:39:12 P.20131013
-EN work/full_adder 1656649280 \
+      EN work/comparador_4bits 1656653109
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd 2022/07/01.01:41:41 P.20131013
+EN work/full_adder 1656653093 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/full_adder/dataflow 1656649281 \
+AR work/full_adder/dataflow 1656653094 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd \
-      EN work/full_adder 1656649280
-FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/half_adder.vhd 2022/06/22.17:39:12 P.20131013
-EN work/half_adder 1656649288 \
+      EN work/full_adder 1656653093
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/half_adder.vhd 2022/07/01.01:41:41 P.20131013
+EN work/half_adder 1656653107 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/half_adder.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/half_adder/dataflow 1656649289 \
+AR work/half_adder/dataflow 1656653108 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/half_adder.vhd \
-      EN work/half_adder 1656649288
-FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.vhd 2022/07/01.00:50:30 P.20131013
-EN work/Incremento1_4bits 1656647444 \
+      EN work/half_adder 1656653107
+EN work/Incremento1_4bits 0 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/Incremento1_4bits/Behavioral 1656647445 \
+AR work/Incremento1_4bits/Behavioral 0 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.vhd \
-      EN work/Incremento1_4bits 1656647444 CP somador_4bits
+      EN work/Incremento1_4bits 0 CP somador_4bits
 EN work/Main 0 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd \
       PB ieee/std_logic_1164 1381692176
@@ -51,33 +51,59 @@ EN work/multiplicador_4bits 0 \
 AR work/multiplicador_4bits/Behavioral 0 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd \
       EN work/multiplicador_4bits 0 CP half_adder CP full_adder
-FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_1bit.vhd 2022/06/30.23:27:54 P.20131013
-EN work/or_1bit 1656649282 \
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/mux81.vhd 2022/07/01.02:03:18 P.20131013
+EN work/mux81 1656653095 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/mux81.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux81/dataflow 1656653096 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/mux81.vhd \
+      EN work/mux81 1656653095
+EN work/mux81_8bits 0 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/mux81_8bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux81_8bits/structural 0 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/mux81_8bits.vhd \
+      EN work/mux81_8bits 0 CP mux81
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/not_1bit.vhd 2022/07/01.01:48:25 P.20131013
+EN work/not_1bit 1656653099 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/not_1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/not_1bit/dataflow 1656653100 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/not_1bit.vhd \
+      EN work/not_1bit 1656653099
+EN work/not_4bits 0 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/not_4bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/not_4bits/Behavioral 0 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/not_4bits.vhd \
+      EN work/not_4bits 0 CP not_1bit
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_1bit.vhd 2022/07/01.01:41:41 P.20131013
+EN work/or_1bit 1656653101 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_1bit.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/or_1bit/dataflow 1656649283 \
+AR work/or_1bit/dataflow 1656653102 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_1bit.vhd \
-      EN work/or_1bit 1656649282
+      EN work/or_1bit 1656653101
 EN work/or_4bits 0 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_4bits.vhd \
       PB ieee/std_logic_1164 1381692176
 AR work/or_4bits/Behavioral 0 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_4bits.vhd \
       EN work/or_4bits 0 CP or_1bit
-FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd 2022/06/22.17:39:12 P.20131013
-EN work/somador_4bits 1656649286 \
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd 2022/07/01.01:41:41 P.20131013
+EN work/somador_4bits 1656653105 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/somador_4bits/structural 1656649287 \
+AR work/somador_4bits/structural 1656653106 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd \
-      EN work/somador_4bits 1656649286 CP full_adder
-FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/subtrator_4bits.vhd 2022/06/22.17:39:12 P.20131013
-EN work/subtrator_4bits 1656649290 \
+      EN work/somador_4bits 1656653105 CP full_adder
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/subtrator_4bits.vhd 2022/07/01.01:41:41 P.20131013
+EN work/subtrator_4bits 1656653111 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/subtrator_4bits.vhd \
       PB ieee/std_logic_1164 1381692176
-AR work/subtrator_4bits/Behavioral 1656649291 \
+AR work/subtrator_4bits/Behavioral 1656653112 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/subtrator_4bits.vhd \
-      EN work/subtrator_4bits 1656649290 CP somador_4bits
+      EN work/subtrator_4bits 1656653111 CP comparador_4bits CP somador_4bits
 EN work/ULA 0 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd \
       PB ieee/std_logic_1164 1381692176
@@ -85,4 +111,17 @@ AR work/ULA/structural 0 \
       FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd \
       EN work/ULA 0 CP somador_4bits CP subtrator_4bits CP multiplicador_4bits \
       CP Incremento1_4bits CP and_4bits CP or_4bits CP not_4bits CP xor_4bits \
-      CP comparador_4bits CP mux81
+      CP mux81_8bits
+FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/xor_1bit.vhd 2022/07/01.01:48:19 P.20131013
+EN work/xor_1bit 1656653097 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/xor_1bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/xor_1bit/dataflow 1656653098 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/xor_1bit.vhd \
+      EN work/xor_1bit 1656653097
+EN work/xor_4bits 0 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/xor_4bits.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/xor_4bits/Behavioral 0 \
+      FL C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/xor_4bits.vhd \
+      EN work/xor_4bits 0 CP xor_1bit

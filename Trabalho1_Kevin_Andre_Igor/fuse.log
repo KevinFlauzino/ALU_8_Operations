@@ -1,23 +1,71 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/TESTE_incrementoDe1_isim_beh.exe -prj C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/TESTE_incrementoDe1_beh.prj work.TESTE_incrementoDe1 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Main_isim_beh.exe -prj C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Main_beh.prj work.Main 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
 Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/xor_1bit.vhd" into library work
 Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_1bit.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/not_1bit.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/mux81.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/half_adder.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/comparador_4bits.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/and_1bit.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/xor_4bits.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/subtrator_4bits.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/subtrator_4bits.vhd" Line 59: Actual for formal port y is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_4bits.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/not_4bits.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/mux81_8bits.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 54: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 56: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 57: Actual for formal port b is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 59: Actual for formal port cin is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 60: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 61: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 64: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 65: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 68: Actual for formal port a is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 70: Actual for formal port cin is neither a static name nor a globally static expression
 Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Incremento1_4bits.vhd" into library work
-Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/TESTE_incrementoDe1.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/and_4bits.vhd" into library work
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd" into library work
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd" Line 126: Actual for formal port x0 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd" Line 127: Actual for formal port x1 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd" Line 129: Actual for formal port x3 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd" Line 130: Actual for formal port x4 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd" Line 131: Actual for formal port x5 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd" Line 132: Actual for formal port x6 is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/ULA.vhd" Line 133: Actual for formal port x7 is neither a static name nor a globally static expression
+Parsing VHDL file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/main.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
 Compiling architecture dataflow of entity full_adder [full_adder_default]
 Compiling architecture structural of entity somador_4bits [somador_4bits_default]
+Compiling architecture behavioral of entity comparador_4bits [comparador_4bits_default]
+Compiling architecture behavioral of entity subtrator_4bits [subtrator_4bits_default]
+Compiling architecture dataflow of entity half_adder [half_adder_default]
+Compiling architecture behavioral of entity multiplicador_4bits [multiplicador_4bits_default]
 Compiling architecture behavioral of entity Incremento1_4bits [incremento1_4bits_default]
-Compiling architecture behavior of entity teste_incrementode1
+Compiling architecture dataflow of entity and_1bit [and_1bit_default]
+Compiling architecture behavioral of entity and_4bits [and_4bits_default]
+Compiling architecture dataflow of entity or_1bit [or_1bit_default]
+Compiling architecture behavioral of entity or_4bits [or_4bits_default]
+Compiling architecture dataflow of entity not_1bit [not_1bit_default]
+Compiling architecture behavioral of entity not_4bits [not_4bits_default]
+Compiling architecture dataflow of entity xor_1bit [xor_1bit_default]
+Compiling architecture behavioral of entity xor_4bits [xor_4bits_default]
+Compiling architecture dataflow of entity mux81 [mux81_default]
+Compiling architecture structural of entity mux81_8bits [mux81_8bits_default]
+Compiling architecture structural of entity ULA [ula_default]
+Compiling architecture behavioral of entity main
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 9 VHDL Units
-Built simulation executable C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/TESTE_incrementoDe1_isim_beh.exe
-Fuse Memory Usage: 29504 KB
-Fuse CPU Usage: 327 ms
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 39 VHDL Units
+Built simulation executable C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/Main_isim_beh.exe
+Fuse Memory Usage: 30876 KB
+Fuse CPU Usage: 452 ms
