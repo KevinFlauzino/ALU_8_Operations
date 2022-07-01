@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/xst"
-elaborate
--ifn contador.prj
--ifmt mixed

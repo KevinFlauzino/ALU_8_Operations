@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-06-30T23:14:51</DateModified>
+  <DateModified>2022-06-30T23:28:10</DateModified>
   <ModuleName>Main</ModuleName>
   <SummaryTimeStamp>2022-06-29T21:48:08</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/igor_/Downloads/trabalho/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/iseconfig/Main.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/igor_/Downloads/trabalho/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/iseconfig/Main.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor\</ImplementationReportsDirectory>
   <DateInitialized>2022-06-22T17:40:31</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

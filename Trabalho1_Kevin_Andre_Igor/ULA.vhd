@@ -56,8 +56,8 @@ architecture structural of ULA is
 	--SUBTRATOR
 	COMPONENT subtrator_4bits is
 		PORT (X, Y: in STD_LOGIC_VECTOR (3 downto 0);
-			resultado: out STD_LOGIC_VECTOR (3 downto 0)
-			cout: out STD_LOGIC(3 downto 0)
+			resultado: out STD_LOGIC_VECTOR (3 downto 0);
+			cout: out STD_LOGIC_VECTOR(3 downto 0)
 		);
 	END COMPONENT;
 	
@@ -76,12 +76,12 @@ architecture structural of ULA is
 begin
 
 	
-	SOMADOR:   somador_4bits(X, Y, parcial_soma, cout_soma);
+	SOMADOR:   somador_4bits(X, Y, parcial_soma, '0', cout_soma);
 	SUBTRATOR: subtrator_4bits(X, Y, resultado_subtracao);
 	
-	MUX: mux81 PORT MAP ("000" & cout_soma & parcial_soma, --Somador 
-						 , 								   --Subtrator
-						 , 
+	MUX: mux81 PORT MAP ("000" & cout_soma & parcial_soma, -- Somador 
+						 '0', 								   		 -- Subtrator
+						 '0', 
 						 x3(0), 
 						 x4(0), 
 						 x5(0), 
@@ -89,9 +89,7 @@ begin
 						 x7(0),
 						 s, 
 						 resultado);
-
-
-
+						 
 end structural;
 
 
