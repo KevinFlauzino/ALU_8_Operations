@@ -80,8 +80,17 @@ begin
 			end if;
 		end if;
 		
+		--Implementando Reset
+		if reset = '1' then
+			n1  			<= "0000";
+			n2  			<= "0000";
+			esc 			<= "000";
+			resultado  	<= "00000000";
+		end if;		
 
 	END PROCESS;
+	
+	ULA_FINAL: ULA PORT MAP(n1, n2, esc, resultado);
 	
 end Behavioral;
 

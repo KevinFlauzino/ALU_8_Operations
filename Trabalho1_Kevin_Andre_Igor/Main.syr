@@ -1,0 +1,162 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: Main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Main.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Main"
+Output Format                      : NGC
+Target Device                      : xc3s700an-4-fgg484
+
+---- Source Options
+Top Module Name                    : Main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/full_adder.vhd" in Library work.
+Architecture dataflow of Entity full_adder is up to date.
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_1bit.vhd" in Library work.
+Entity <or_1bit> compiled.
+Entity <or_1bit> (Architecture <dataflow>) compiled.
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/and_1bit.vhd" in Library work.
+Entity <and_1bit> compiled.
+Entity <and_1bit> (Architecture <dataflow>) compiled.
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/somador_4bits.vhd" in Library work.
+Architecture structural of Entity somador_4bits is up to date.
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/half_adder.vhd" in Library work.
+Entity <half_adder> compiled.
+Entity <half_adder> (Architecture <dataflow>) compiled.
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/subtrator_4bits.vhd" in Library work.
+Entity <subtrator_4bits> compiled.
+Entity <subtrator_4bits> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" in Library work.
+Entity <multiplicador_4bits> compiled.
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 54. Actual, result of operator, associated with Formal Signal, Signal 'A', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 54. Actual, result of operator, associated with Formal Signal, Signal 'B', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 54. Expression is not a static name.
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 54. Expression is not a static name.
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 56. Actual, result of operator, associated with Formal Signal, Signal 'A', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 56. Actual, result of operator, associated with Formal Signal, Signal 'B', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 56. Expression is not a static name.
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 56. Expression is not a static name.
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 57. Actual, result of operator, associated with Formal Signal, Signal 'B', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 57. Expression is not a static name.
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 59. Actual, result of operator, associated with Formal Signal, Signal 'Cin', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 59. Expression is not a static name.
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 60. Actual, result of operator, associated with Formal Signal, Signal 'A', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 60. Actual, result of operator, associated with Formal Signal, Signal 'B', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 60. Expression is not a static name.
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 60. Expression is not a static name.
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 61. Actual, result of operator, associated with Formal Signal, Signal 'A', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 61. Expression is not a static name.
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 64. Actual, result of operator, associated with Formal Signal, Signal 'A', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 64. Actual, result of operator, associated with Formal Signal, Signal 'B', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 64. Expression is not a static name.
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 64. Expression is not a static name.
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 65. Actual, result of operator, associated with Formal Signal, Signal 'A', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 65. Expression is not a static name.
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 68. Actual, result of operator, associated with Formal Signal, Signal 'A', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 68. Actual, result of operator, associated with Formal Signal, Signal 'B', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 68. Expression is not a static name.
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 68. Expression is not a static name.
+ERROR:HDLParsers:864 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" Line 70. Actual, result of operator, associated with Formal Signal, Signal 'Cin', is not a Signal. (LRM 2.1.1)
+ERROR:HDLParsers:3298 - "C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/multiplicador_4bits.vhd" line 70. Expression is not a static name.
+--> 
+
+Total memory usage is 4495112 kilobytes
+
+Number of errors   :   30 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
