@@ -73,7 +73,7 @@ BEGIN
       wait for 100 ns;	
       -- insert stimulus here 
 		
-		X <= "1100";
+		X <= "1111";
 
       wait;
    end process;

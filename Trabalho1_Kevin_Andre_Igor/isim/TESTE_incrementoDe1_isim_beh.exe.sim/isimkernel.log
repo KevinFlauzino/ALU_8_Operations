@@ -1,0 +1,28 @@
+Command line:
+   TESTE_incrementoDe1_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50697
+
+Fri Jul 01 08:21:40 2022
+
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 5150.07 Meg
+
+ Total Signals          : 36
+ Total Nets             : 17
+ Total Signal Drivers   : 9
+ Total Blocks           : 8
+ Total Primitive Blocks : 5
+ Total Processes        : 9
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 377
+
+ Total Simulation Time: 0 sec
+
+ Current Memory Usage: 4678.21 Meg
+
+Fri Jul 01 08:24:43 2022
+

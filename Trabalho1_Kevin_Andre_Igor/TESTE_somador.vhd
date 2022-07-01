@@ -79,9 +79,9 @@ BEGIN
       wait for 100 ns;	
 
       -- insert stimulus here 
-		X <= "0011";
-		Y <= "0001";
-
+		X <= "1110";
+		Y <= "1001";
+		Cin <= '1';
       wait;
    end process;
 

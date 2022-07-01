@@ -40,7 +40,7 @@ architecture Behavioral of comparador_4bits is
 	
 
 begin
-	Z_menor <= (((A(0) AND (NOT B(0))) AND (A(1) XNOR B(1)) AND (A(3) XNOR B(3))) OR
+	Z_menor <= (((A(0) AND (NOT B(0))) AND (A(1) XNOR B(1)) AND (A(2) XNOR B(2)) AND (A(3) XNOR B(3))) OR
 		  ((A(1) AND (NOT B(1))) AND (A(2) XNOR B(2)) AND (A(3) XNOR B(3))) OR
 		  ((A(2) AND (NOT B(2))) AND (A(3) XNOR B(3))) OR
 		  ((A(3) AND (NOT B(3)))));

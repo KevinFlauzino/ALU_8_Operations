@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   15:33:18 06/22/2022
+-- Create Date:   02:50:40 07/01/2022
 -- Design Name:   
--- Module Name:   D:/Trabalho1_Kevin_Andre_Igor/TESTE_subtrator.vhd
+-- Module Name:   C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/TESTE_subtrator.vhd
 -- Project Name:  Trabalho1_Kevin_Andre_Igor
 -- Target Device:  
 -- Tool versions:  
@@ -43,8 +43,8 @@ ARCHITECTURE behavior OF TESTE_subtrator IS
     PORT(
          X : IN  std_logic_vector(3 downto 0);
          Y : IN  std_logic_vector(3 downto 0);
-         D : OUT  std_logic_vector(3 downto 0);
-         Cin : IN  std_logic
+         diferenca : OUT  std_logic_vector(3 downto 0);
+         Cout : OUT  std_logic
         );
     END COMPONENT;
     
@@ -52,10 +52,10 @@ ARCHITECTURE behavior OF TESTE_subtrator IS
    --Inputs
    signal X : std_logic_vector(3 downto 0) := (others => '0');
    signal Y : std_logic_vector(3 downto 0) := (others => '0');
-   signal Cin : std_logic := '0';
 
  	--Outputs
-   signal D : std_logic_vector(3 downto 0);
+   signal diferenca : std_logic_vector(3 downto 0);
+   signal Cout : std_logic;
    -- No clocks detected in port list. Replace <clock> below with 
    -- appropriate port name 
  
@@ -65,8 +65,8 @@ BEGIN
    uut: subtrator_4bits PORT MAP (
           X => X,
           Y => Y,
-          D => D,
-          Cin => Cin
+          diferenca => diferenca,
+          Cout => Cout
         );
 
    -- Stimulus process
@@ -74,9 +74,9 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
       wait for 100 ns;	
-
       -- insert stimulus here 
-		X <= "0111";
+		
+		X <= "0011";
 		Y <= "0110";
 
       wait;

@@ -73,8 +73,8 @@ ARCHITECTURE behavior OF TESTE_multiplicador IS
       wait for 100 ns;	
 		
       -- insert stimulus here 
-		X <= "0100";
-		Y <= "0111";
+		X <= "1100";
+		Y <= "1111";
 
       wait;
    end process;

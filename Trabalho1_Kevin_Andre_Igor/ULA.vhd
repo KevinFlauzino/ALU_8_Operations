@@ -74,9 +74,10 @@ architecture structural of ULA is
 	
 	--MUX 8X1 8 BITS
 	COMPONENT mux81_8bits is
-			PORT (x0, x1, x2, x3, x4, x5, x6, x7: in STD_LOGIC_VECTOR(7 downto 0);
-		  s: in STD_LOGIC_VECTOR(2 downto 0); 
-		  z: out STD_LOGIC_VECTOR(7 downto 0));
+		PORT (x0, x1, x2, x3, x4, x5, x6, x7: in STD_LOGIC_VECTOR(7 downto 0);
+			  seletor: in STD_LOGIC_VECTOR(2 downto 0); 
+			  z: out STD_LOGIC_VECTOR(7 downto 0)
+		);
 	END COMPONENT;
 	
 	--INCREMENTO DE 1

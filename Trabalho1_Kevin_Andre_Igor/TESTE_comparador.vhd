@@ -2,7 +2,7 @@
 -- Company: 
 -- Engineer:
 --
--- Create Date:   23:57:02 06/30/2022
+-- Create Date:   03:02:01 07/01/2022
 -- Design Name:   
 -- Module Name:   C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/TESTE_comparador.vhd
 -- Project Name:  Trabalho1_Kevin_Andre_Igor
@@ -73,8 +73,8 @@ BEGIN
       wait for 100 ns;	
       -- insert stimulus here 
 		
-		A <= "0000";
-		B <= "0000";
+		A <= "0011";
+		B <= "0110";
 
       wait;
    end process;

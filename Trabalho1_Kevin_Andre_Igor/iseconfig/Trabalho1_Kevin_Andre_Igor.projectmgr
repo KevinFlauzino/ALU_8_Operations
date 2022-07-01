@@ -9,12 +9,15 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/INCREMENTO_1 - Incremento1_4bits - Behavioral</ClosedNode>
          <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/MULTIPLICADOR - multiplicador_4bits - Behavioral</ClosedNode>
+         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/MUX - mux81_8bits - structural</ClosedNode>
          <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/OPERACAO_AND - and_4bits - Behavioral</ClosedNode>
          <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/OPERACAO_NOT - not_4bits - Behavioral</ClosedNode>
          <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/OPERACAO_OR - or_4bits - Behavioral</ClosedNode>
          <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/OPERACAO_XOR - xor_4bits - Behavioral</ClosedNode>
          <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/SOMADOR - somador_4bits - structural</ClosedNode>
          <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/SUBTRATOR - subtrator_4bits - Behavioral</ClosedNode>
+         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/SUBTRATOR - subtrator_4bits - Behavioral/d1 - somador_4bits - structural</ClosedNode>
+         <ClosedNode>/TESTE_contador - behavior C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|TESTE_contador.vhd</ClosedNode>
          <ClosedNode>/and_4bits - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|and_4bits.vhd</ClosedNode>
          <ClosedNode>/multiplicador_4bits - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|multiplicador_4bits.vhd</ClosedNode>
          <ClosedNode>/multiplicador_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|multiplicador_4bits.vhd</ClosedNode>
@@ -27,15 +30,16 @@
          <ClosedNode>/subtrator_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd</ClosedNode>
          <ClosedNode>/subtrator_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd/d1 - somador_4bits - structural</ClosedNode>
          <ClosedNode>/subtrator_4bits - Behavioral |home|sd|Documents|Trab1|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd</ClosedNode>
+         <ClosedNode>/testbench - behavior C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|TESTE_ULA.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>xc3s700an-4fgg484</SelectedItem>
+         <SelectedItem>OPERACAO_OR - or_4bits - Behavioral (C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_4bits.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001dd000000020000000100000000000000000200000064ffffffff000000810000000300000002000001dd0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ff000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ff0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>xc3s700an-4fgg484</CurrentItem>
+      <CurrentItem>OPERACAO_OR - or_4bits - Behavioral (C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/or_4bits.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -43,13 +47,13 @@
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ee000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ee0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -58,9 +62,9 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000003a3000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002d70000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002c60000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>and_1bit.vhd</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -111,7 +115,15 @@
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd</ClosedNode>
-         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural</ClosedNode>
+         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/INCREMENTO_1 - Incremento1_4bits - Behavioral</ClosedNode>
+         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/MULTIPLICADOR - multiplicador_4bits - Behavioral</ClosedNode>
+         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/MUX - mux81_8bits - structural</ClosedNode>
+         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/OPERACAO_AND - and_4bits - Behavioral</ClosedNode>
+         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/OPERACAO_NOT - not_4bits - Behavioral</ClosedNode>
+         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/OPERACAO_OR - or_4bits - Behavioral</ClosedNode>
+         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/OPERACAO_XOR - xor_4bits - Behavioral</ClosedNode>
+         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/SOMADOR - somador_4bits - structural</ClosedNode>
+         <ClosedNode>/Main - Behavioral C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|main.vhd/ULA_FINAL - ULA - structural/SUBTRATOR - subtrator_4bits - Behavioral</ClosedNode>
          <ClosedNode>/TESTE_and4bits - behavior C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|TESTE_and4bits.vhd</ClosedNode>
          <ClosedNode>/TESTE_comparador - behavior C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|TESTE_comparador.vhd</ClosedNode>
          <ClosedNode>/TESTE_contador - behavior C:|Users|Usuario|OneDrive|FACUL|UFRJ|Repositorios_git|ALU_8_Operations_VHDL|Trabalho1_Kevin_Andre_Igor|TESTE_contador.vhd</ClosedNode>
@@ -132,12 +144,14 @@
          <ClosedNode>/somador_4bits - structural D:|Trabalho1_Kevin_Andre_Igor|somador_4bits.vhd</ClosedNode>
          <ClosedNode>/subtrator_4bits - Behavioral D:|Trabalho1_Kevin_Andre_Igor|subtrator_4bits.vhd</ClosedNode>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>TESTE_and4bits - behavior (C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/TESTE_and4bits.vhd)</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000187000000020000000000000000000000000200000064ffffffff000000810000000300000002000001870000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+      <CurrentItem>TESTE_and4bits - behavior (C:/Users/Usuario/OneDrive/FACUL/UFRJ/Repositorios_git/ALU_8_Operations_VHDL/Trabalho1_Kevin_Andre_Igor/TESTE_and4bits.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -145,13 +159,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ee000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ee0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -159,13 +173,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Behavioral Check Syntax</SelectedItem>
+         <SelectedItem>ISim Simulator</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ee000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ee0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Behavioral Check Syntax</CurrentItem>
+      <CurrentItem>ISim Simulator</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="ManualCompile" >
       <ClosedNodes>
@@ -186,13 +200,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001ee000000010000000100000000000000000000000064ffffffff000000810000000000000001000001ee0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
       <ClosedNodes>
